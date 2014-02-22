@@ -1,3 +1,15 @@
-name: Your New Jekyll Site
+name: Mehakovic
 markdown: redcarpet
 pygments: true
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+
+exclude: [todo.md, Gemfile, Gemfile.lock, Procfile, readme.md, sass, unicorn.rb, vendor]
+
+permalink: articles/:title
+
+cdn: http://www.heuro.net
+url: http://www.heuro.net
