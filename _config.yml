@@ -7,11 +7,10 @@ assets:
     css:  sass
     js:   uglifier
 
-source: marketing
-
 exclude: [todo.md, Gemfile, Gemfile.lock, Procfile, readme.md, sass, unicorn.rb, vendor]
 
-permalink: articles/:title
+relative_permalinks: false
+permalink: :title
 
 cdn: http://www.cdn.mehakovic.com
 url: http://www.mehakovic.com
