@@ -1,7 +1,8 @@
 # Phase 1
 
 * Set up
-	- jekyl
+	- jekyll
+	- server
 	- saas
 	- coffeescript
 	- burbon & burbon neat

@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Market analysis
-permalink: /services/market-analysis/index.html
-tags: services, research, context
+permalink: /services/market-analysis/
+tags: [services, research, context]
 ---
 
 ## Overview
 
-{{ post.title }} enables us to understand your business within the broader scope of the market within which it operates. Within the analysis we review your business' market dynamics an identify broader macro-trends that can be exploited by yourself, competitors or up starts.
+{{ page.title }} enables us to understand your business within the broader scope of the market within which it operates. Within the analysis we review your business' market dynamics an identify broader macro-trends that can be exploited by yourself, competitors or up starts.
 
 ***
 
 ## The purpose
 
-During {{ post.title }} we answer:
+During {{ page.title }} we answer:
 
 * What are the dynamics of our business?
 * How is digital being used by our competitors?
@@ -24,7 +24,7 @@ During {{ post.title }} we answer:
 
 ## The work
 
-The work involved in the {{ post.title }} includes:
+The work involved in the {{ page.title }} includes:
 
 * Internal report analysis: annual reports, business plans, marketing plans
 * Industry report analysis (by market research firms)
@@ -35,10 +35,10 @@ The work involved in the {{ post.title }} includes:
 
 ## Deliverables
 
-{{ site.data.services.deliverables }}
+{{ site.service_deliverables_copy }}
 
 * Key recommendations for the business' opportunities in digital
 * Key market drivers and their relation to digital
 * Digital value model
 * Strength, weaknesses, opportunities and threats within digital
-* Key digital forces including opportunities and risks
+* Key digital forces including opportunities and risks.
