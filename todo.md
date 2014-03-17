@@ -1,10 +1,7 @@
 # Phase 1
 
 * Set up
-	- jekyll
-	- server
-	- saas
-	- coffeescript
+	- coffescript & sass compile & minify: https://gist.github.com/kaelig/1199386
 	- burbon & burbon neat
 * design site
 * Content
