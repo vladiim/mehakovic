@@ -1,1 +1,1 @@
-blah = (lol) ->
+blah = (lol) -> "wh00t"

@@ -324,3 +324,9 @@ PassengerHelperAgent(2420,0x10ed2e000) malloc: *** set a breakpoint in malloc_er
 PassengerHelperAgent(2422,0x10ed2e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
 PassengerHelperAgent(2422,0x10ed2e000) malloc: *** error: can't allocate region securely
 PassengerHelperAgent(2422,0x10ed2e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerWatchdog (cleaning up...)(19128,0x7fff7bd33310) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerWatchdog (cleaning up...)(19128,0x7fff7bd33310) malloc: *** error: can't allocate region securely
+PassengerWatchdog (cleaning up...)(19128,0x7fff7bd33310) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerWatchdog (cleaning up...)(19132,0x7fff7bd33310) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerWatchdog (cleaning up...)(19132,0x7fff7bd33310) malloc: *** error: can't allocate region securely
+PassengerWatchdog (cleaning up...)(19132,0x7fff7bd33310) malloc: *** set a breakpoint in malloc_error_break to debug
