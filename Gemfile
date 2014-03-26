@@ -9,6 +9,8 @@ gem 'rack-jekyll',   "~> 0.4.1"
 gem "passenger",     "~> 4.0.37"
 gem "rack-contrib",  "~> 1.1.0"
 
+gem "s3_website"
+
 # --------- Assets  --------- #
 group :development do
 	gem "rake"
