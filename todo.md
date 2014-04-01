@@ -1,15 +1,3 @@
-# Phase 1
-
-Up to: 
-
-* automating build, see Rakefile.rb
-* create permissions for AIM user group
-
-
-
-
-
-<!-- 
 * Set up
 	- coffescript & sass compile & minify: https://gist.github.com/kaelig/1199386
 	- burbon & burbon neat
@@ -28,7 +16,6 @@ Up to:
 	 redis cache
 * set up rake deploy task
 * add permissions policy to AIM user group https://console.aws.amazon.com/iam/home?region=us-east-1#groups
- -->
 ***
 
 # Phase 2

@@ -1,0 +1,4 @@
+/* line 1, ../../assets/sass/test.scss */
+#lol { height: 40000px; }
+/* line 3, ../../assets/sass/test.scss */
+#lol .nesting { width: 200px; }

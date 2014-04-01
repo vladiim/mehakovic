@@ -1,3 +1,9 @@
+namespace "compile" do
+	task :marketing do
+		sh "jekyll build"
+	end
+end
+
 namespace "rm" do
   task :marketing do
   	sh "s3cmd --recursive ls s3://mehakovic | awk '{ print $4 }' | grep -v './logs/' | xargs s3cmd del"
@@ -11,6 +17,5 @@ namespace "push" do
 end
 
 namespace "deploy" do
-  task marketing: ["rm:marketing", "push:marketing"] do
-  end
+  task marketing: ["compile:marketing", "rm:marketing", "push:marketing"]
 end
