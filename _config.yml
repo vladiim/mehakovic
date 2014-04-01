@@ -7,7 +7,7 @@ assets:
     css:  sass
     js:   uglifier
 
-exclude: [todo.md, Gemfile, Gemfile.lock, Guardfile, config.ru, Procfile, readme.md, sass, unicorn.rb, vendor]
+exclude: [todo.md, Gemfile, Gemfile.lock, Guardfile, config.ru, Procfile, readme.md, sass, unicorn.rb, vendor, log]
 
 relative_permalinks: false
 permalink: :title

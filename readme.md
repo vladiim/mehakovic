@@ -14,5 +14,4 @@ Personal consulting site.
 
 # Deploy
 
-* Run `rake build:marketing`
-* Then `rake deploy:marketing`
+* Run `rake deploy:marketing`
