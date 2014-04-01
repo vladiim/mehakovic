@@ -15,7 +15,7 @@ guard "process", name: "Combine Javascript from CoffeeScript", command: "coffee 
   watch %r{assets/coffee/.+\.coffee}
 end
 
-guard "process", name: "Minify application javascript", command: "juicer merge js/unmini/* -o js/app.js --force -s" do
+guard "process", name: "Minify application javascript", command: "juicer merge js/unmini/* -o js/app.js --force" do
   watch %r{js/app\.js}
 end
 

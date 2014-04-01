@@ -1,5 +1,6 @@
+LAYOUTS AREN'T RENDERED PROPERLY!
+
 * Set up
-	- coffescript & sass compile & minify: https://gist.github.com/kaelig/1199386
 	- burbon & burbon neat
 * design site
 * Content

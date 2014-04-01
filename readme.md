@@ -12,6 +12,13 @@ Personal consulting site.
 
 ***
 
-# Deploy
+# Deployment
 
 * Run `rake deploy:marketing`
+
+***
+
+# Compilation
+
+* For asset compilation run `guard`
+* For static site compilation run `rake compile:marketing`

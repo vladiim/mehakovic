@@ -6,12 +6,11 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/app.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/app.js"></script>
 
+        <link rel="canonical" href="http://mehakovic.com{{ page.url | replace:'index.html','' }}" />
     </head>
     <body>
 
@@ -21,7 +20,11 @@
             <a class="extra" href="/">home</a>
           </div>
 
-          {{ content }}
+          <main>
+
+            {{ content }}
+            
+          </main>
 
           <div class="footer">
             <div class="contact">
