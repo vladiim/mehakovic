@@ -1,0 +1,17 @@
+a {
+	color: $blue;
+	transition: color 0.5s linear;
+	text-decoration: none;
+
+  &:hover{ color: $dark-blue; }
+
+  .button {
+	  display: inline-block;
+	  line-height: 2.5rem;
+	  padding: 0 1.5rem;
+	  margin-top: 1rem;
+	  color: white;
+	  background: $dark-grey;
+	  text-decoration: none;
+	}
+}

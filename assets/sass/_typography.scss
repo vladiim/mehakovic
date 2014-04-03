@@ -1,0 +1,24 @@
+html {
+	font-size: 16px;
+  font-family: $font;
+  line-height: 1.4;
+  color: $dark-grey;
+
+  body, p {  font-size: ms(0); }
+
+  h5 { font-size: ms(1); }
+  h4 { font-size: ms(2); }
+  h3 { font-size: ms(3); }
+  h2 { font-size: ms(4); }
+  h1 { font-size: ms(5); }
+}
+
+@media screen and (max-width: $s-small){ html{ font-size: 12px; } }
+@media screen and (max-width: $m-small){ html{ font-size: 14px; } }
+@media screen and (min-width: $l-small){ html{ font-size: 16px; } }
+@media screen and (min-width: $s-med){ html{ font-size: 16px; } }
+@media screen and (min-width: $m-med){ html{ font-size: 17px; } }
+@media screen and (min-width: $l-med){ html{ font-size: 17px; } }
+@media screen and (min-width: $s-large){ html{ font-size: 17px; } }
+@media screen and (min-width: $m-large){ html{ font-size: 18px; } }
+@media screen and (min-width: $l-large){ html{ font-size: 18px; } }
