@@ -1,35 +1,27 @@
 /* line 1, ../../assets/sass/_typography.scss */
 html { font-size: 16px; font-family: "helvetica neue", helvetica, arial, sans-serif; line-height: 1.4; color: #3c3c3c; }
 /* line 7, ../../assets/sass/_typography.scss */
-html body, html p { font-size: 1rem; }
-/* line 9, ../../assets/sass/_typography.scss */
-html h5 { font-size: 1.25rem; }
-/* line 10, ../../assets/sass/_typography.scss */
-html h4 { font-size: 1.61803rem; }
-/* line 11, ../../assets/sass/_typography.scss */
-html h3 { font-size: 2.02254rem; }
+html body, html p { font-size: 1rem; margin: 0; }
 /* line 12, ../../assets/sass/_typography.scss */
-html h2 { font-size: 2.61803rem; }
-/* line 13, ../../assets/sass/_typography.scss */
-html h1 { font-size: 3.27254rem; }
+html h5 { font-size: 1.25rem; margin: 0; }
+/* line 17, ../../assets/sass/_typography.scss */
+html h4 { font-size: 1.61803rem; margin: 0; }
+/* line 22, ../../assets/sass/_typography.scss */
+html h3 { font-size: 2.02254rem; margin: 0; }
+/* line 27, ../../assets/sass/_typography.scss */
+html h2 { font-size: 2.61803rem; margin: 0; }
+/* line 32, ../../assets/sass/_typography.scss */
+html h1 { font-size: 3.27254rem; margin: 0; }
 
-@media screen and (max-width: 500px) { /* line 16, ../../assets/sass/_typography.scss */
+@media screen and (max-width: 500px) { /* line 38, ../../assets/sass/_typography.scss */
   html { font-size: 12px; } }
-@media screen and (max-width: 570px) { /* line 17, ../../assets/sass/_typography.scss */
+@media screen and (max-width: 570px) { /* line 39, ../../assets/sass/_typography.scss */
   html { font-size: 14px; } }
-@media screen and (min-width: 620px) { /* line 18, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 680px) { /* line 40, ../../assets/sass/_typography.scss */
   html { font-size: 16px; } }
-@media screen and (min-width: 680px) { /* line 19, ../../assets/sass/_typography.scss */
-  html { font-size: 16px; } }
-@media screen and (min-width: 720px) { /* line 20, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 860px) { /* line 41, ../../assets/sass/_typography.scss */
   html { font-size: 17px; } }
-@media screen and (min-width: 800px) { /* line 21, ../../assets/sass/_typography.scss */
-  html { font-size: 17px; } }
-@media screen and (min-width: 860px) { /* line 22, ../../assets/sass/_typography.scss */
-  html { font-size: 17px; } }
-@media screen and (min-width: 920px) { /* line 23, ../../assets/sass/_typography.scss */
-  html { font-size: 18px; } }
-@media screen and (min-width: 1000px) { /* line 24, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 1000px) { /* line 42, ../../assets/sass/_typography.scss */
   html { font-size: 18px; } }
 /* line 1, ../../assets/sass/_links.scss */
 a { color: rgba(20, 104, 215, 0.75); transition: color 0.5s linear; text-decoration: none; }
