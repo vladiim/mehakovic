@@ -35,3 +35,5 @@
 	- with LinkedIn
 * Tags across site
 * more refined analytics (user flow, mixpanel style)
+* add open graph markup
+* revise modular scales golden ratio with bourbon?

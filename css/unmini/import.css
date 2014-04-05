@@ -1,27 +1,32 @@
 /* line 1, ../../assets/sass/_typography.scss */
+::selection { background: rgba(20, 104, 215, 0.75); color: white; }
+
+/* line 8, ../../assets/sass/_typography.scss */
 html { font-size: 16px; font-family: "helvetica neue", helvetica, arial, sans-serif; line-height: 1.4; color: #3c3c3c; }
-/* line 7, ../../assets/sass/_typography.scss */
+/* line 14, ../../assets/sass/_typography.scss */
 html body, html p { font-size: 1rem; margin: 0; }
-/* line 12, ../../assets/sass/_typography.scss */
+/* line 19, ../../assets/sass/_typography.scss */
+html h5, html h4, html h3, html h2, html h1 { line-height: 0.8; }
+/* line 21, ../../assets/sass/_typography.scss */
 html h5 { font-size: 1.25rem; margin: 0; }
-/* line 17, ../../assets/sass/_typography.scss */
+/* line 26, ../../assets/sass/_typography.scss */
 html h4 { font-size: 1.61803rem; margin: 0; }
-/* line 22, ../../assets/sass/_typography.scss */
+/* line 31, ../../assets/sass/_typography.scss */
 html h3 { font-size: 2.02254rem; margin: 0; }
-/* line 27, ../../assets/sass/_typography.scss */
+/* line 36, ../../assets/sass/_typography.scss */
 html h2 { font-size: 2.61803rem; margin: 0; }
-/* line 32, ../../assets/sass/_typography.scss */
+/* line 41, ../../assets/sass/_typography.scss */
 html h1 { font-size: 3.27254rem; margin: 0; }
 
-@media screen and (max-width: 500px) { /* line 38, ../../assets/sass/_typography.scss */
+@media screen and (max-width: 500px) { /* line 47, ../../assets/sass/_typography.scss */
   html { font-size: 12px; } }
-@media screen and (max-width: 570px) { /* line 39, ../../assets/sass/_typography.scss */
+@media screen and (max-width: 570px) { /* line 48, ../../assets/sass/_typography.scss */
   html { font-size: 14px; } }
-@media screen and (min-width: 680px) { /* line 40, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 680px) { /* line 49, ../../assets/sass/_typography.scss */
   html { font-size: 16px; } }
-@media screen and (min-width: 860px) { /* line 41, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 860px) { /* line 50, ../../assets/sass/_typography.scss */
   html { font-size: 17px; } }
-@media screen and (min-width: 1000px) { /* line 42, ../../assets/sass/_typography.scss */
+@media screen and (min-width: 1000px) { /* line 51, ../../assets/sass/_typography.scss */
   html { font-size: 18px; } }
 /* line 1, ../../assets/sass/_links.scss */
 a { color: rgba(20, 104, 215, 0.75); transition: color 0.5s linear; text-decoration: none; }
@@ -29,3 +34,14 @@ a { color: rgba(20, 104, 215, 0.75); transition: color 0.5s linear; text-decorat
 a:hover { color: rgba(0, 76, 153, 0.9); }
 /* line 8, ../../assets/sass/_links.scss */
 a .button { display: inline-block; line-height: 2.5rem; padding: 0 1.5rem; margin-top: 1rem; color: white; background: #3c3c3c; text-decoration: none; }
+
+/* line 1, ../../assets/sass/_nav.scss */
+nav { background: rgba(20, 104, 215, 0.75); }
+/* line 4, ../../assets/sass/_nav.scss */
+nav ul { list-style: none; margin: 0; padding: 0; height: auto; }
+/* line 10, ../../assets/sass/_nav.scss */
+nav ul li { display: inline-block; }
+/* line 13, ../../assets/sass/_nav.scss */
+nav ul li a { padding: 0 1rem 0 0.2rem; background-position: 1em center; color: white; display: block; height: 20px; transition: background 0.5s linear; }
+/* line 21, ../../assets/sass/_nav.scss */
+nav ul li a:hover { color: white; background: rgba(0, 76, 153, 0.9); }

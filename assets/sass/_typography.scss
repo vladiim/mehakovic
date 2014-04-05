@@ -1,3 +1,10 @@
+::selection {
+  background: $blue;
+  color: $white;
+}
+
+// originally done with modular scales, revise with burbon
+
 html {
 	font-size: 16px;
   font-family: $font;
@@ -8,6 +15,8 @@ html {
   	font-size: ms(0);
   	margin: 0;
   }
+
+  h5, h4, h3, h2, h1 { line-height: 0.8; }
 
   h5 {
   	font-size: ms(1);

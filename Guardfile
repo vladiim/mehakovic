@@ -1,3 +1,10 @@
+guard "process", name: "Rebuild jekyll", command: "jekyll build" do
+  watch %r{marketing/*}
+  watch %r{_layouts/*}
+  watch %r{_data/*}
+  watch %r{_includes/*}
+end
+
 guard "compass", configuration_file: "config/compass.rb" do
   watch(/^assets\/sass\/(.*)\.scss/)
 end
@@ -30,4 +37,5 @@ end
 guard "livereload", apply_js_live: true, apply_css_live: true do
   watch(%r{css/app\.css})
   watch(%r{js/app\.js})
+  watch(%r{_site})
 end
