@@ -5,11 +5,7 @@ guard "process", name: "Rebuild jekyll", command: "jekyll build" do
   watch %r{_includes/*}
 end
 
-guard "compass", configuration_file: "config/compass.rb" do
-  watch(/^assets\/sass\/(.*)\.scss/)
-end
-
-guard "process", name: "Combine CSS from SASS", command: "compass compile assets/sass/import.scss" do
+guard "process", name: "Combine CSS from SASS", command: "sass assets/sass/import.scss css/unmini/import.css" do
   watch %r{/^assets/sass/.+\.scss}
 end
 

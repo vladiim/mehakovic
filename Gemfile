@@ -18,7 +18,7 @@ group :development do
 	gem "juicer"
   gem "jekyll-assets",      "~> 0.7.4"
   gem "coffee-script",      "~> 2.2.0"
-  gem "sass",               "~> 3.2.12"
+  gem "sass",               "~> 3.3.0"
   gem "compass",            "~> 0.12.2"
   gem "uglifier",           "~> 2.3.1"
   gem "guard-compass",      "~> 0.0.8"

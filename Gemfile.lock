@@ -134,7 +134,7 @@ GEM
       thor (= 0.18.1)
       zopfli (~> 0.0.3)
     safe_yaml (0.9.7)
-    sass (3.2.14)
+    sass (3.3.4)
     simple-cloudfront-invalidator (1.0.1)
       colored (= 1.2)
     slop (3.4.7)
@@ -177,5 +177,5 @@ DEPENDENCIES
   rake
   rubypython (~> 0.6.3)
   s3_website
-  sass (~> 3.2.12)
+  sass (~> 3.3.0)
   uglifier (~> 2.3.1)
