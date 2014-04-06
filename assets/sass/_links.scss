@@ -1,9 +1,12 @@
 a {
 	color: $blue;
-	transition: color 0.5s linear;
+	@include transition( all 0.5s );
 	text-decoration: none;
 
-  &:hover{ color: $dark-blue; }
+  &:hover{
+  	color: $dark-blue;
+  	text-decoration: underline;
+  }
 
   .button {
 	  display: inline-block;

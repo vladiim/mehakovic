@@ -1,1 +1,0 @@
-(function(){var a;a=function(b){return"wh00t"}}).call(this);(function(){({whoops:function(){return"no it didn't"}})}).call(this);
