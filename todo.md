@@ -19,6 +19,7 @@
 
 # Phase 2
 
+* generate an index page for every tag
 * marketing
 	- webmaster
 	- sitemap.xml

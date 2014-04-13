@@ -5,10 +5,13 @@ guard "process", name: "Rebuild jekyll", command: "jekyll build" do
   watch %r{_includes/*}
 end
 
-guard "process", name: "Combine CSS from SASS", command: "sass assets/sass/import.scss css/unmini/import.css" do
+# guard "process", name: "Combine CSS from SASS", command: "sass assets/sass/import.scss css/unmini/import.css" do
+#   watch %r{/^assets/sass/.+\.scss}
+# end
+
+guard "sass", input: "assets/sass", output: "css/unmini" do
   watch %r{/^assets/sass/.+\.scss}
 end
-
 
 guard "process", name: "Compile and minify css", command: "juicer merge css/unmini/* -o css/app.css --force" do
 	watch %r{css/unmini/.+\.css}
