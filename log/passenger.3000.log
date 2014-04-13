@@ -1012,3 +1012,6 @@ App 4791 stdout:
 PassengerHelperAgent(6599,0x10d8App 7018 stdout: 
 [ 2014-04-13 13:12:22.4383 4023/0x10d8b3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 7018, listening on unix:/tmp/passenger.1.0.4020/generation-0/backends/preloader.7018
 App 7176 stdout: 
+App 19043 stdout: 
+[ 2014-04-13 19:02:49.2806 4023/0x10d8b3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 19043, listening on unix:/tmp/passenger.1.0.4020/generation-0/backends/preloader.19043
+App 19209 stdout: 
