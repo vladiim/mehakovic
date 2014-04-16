@@ -1,18 +1,33 @@
 ---
 layout: default
 permalink: /index.html
-title: Mehakovic
+title: Mehakovi&cacute;
 ---
 
 <section id="home">
-	<header>
-		<h2>Digital marketing strategy</h2>
-	</header>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
 
-  <a href="/" class="button">Brief me</a>
+	<header>
+		<h1>Digital marketing strategy</h1>
+	</header>
+
+  <div class="cards">
+	  {% for post in site.posts %}
+
+		  <article class="card">
+		    <div class="ribbon-wrapper">
+		    	<div class="ribbon">SERVICE</div>
+		    </div>
+		    <div class="card-image">
+		      <img src="https://raw.github.com/Magnus-G/Random/master/mountains.png" alt="">
+		    </div>
+		    <div class="card-header">
+		      <a href="{{ post.url }}">{{ post.title }}</a>
+		    </div>
+		    <div class="card-copy">
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+		    </div>
+		  </article>
+
+	  {% endfor %}
+  <div>
 </section>

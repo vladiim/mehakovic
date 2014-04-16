@@ -11,14 +11,21 @@ a {
   	color: $dark-blue;
   	text-decoration: underline;
   }
+}
 
-  .button {
-	  display: inline-block;
-	  line-height: 2.5rem;
-	  padding: 0 1.5rem;
-	  margin-top: 1rem;
-	  color: white;
-	  background: $dark-grey;
-	  text-decoration: none;
-	}
+a.button {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2.5rem;
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+  color: darken( white, 10 );
+  background: $blue;
+  text-decoration: none;
+  @include transition( all 0.5s );
+
+  &:hover {
+  	color: white;
+  	background: $dark-blue;
+  }
 }

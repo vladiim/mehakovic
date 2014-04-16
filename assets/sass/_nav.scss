@@ -76,34 +76,3 @@ nav {
     }
   }
 }
-
-//nav {
-//  background: $blue;
-
-//  ul {
-//  	list-style: none;
-//  	margin: 0;
-//  	padding: 0;
-//  	height: auto;
-
-//  	li {
-//  		display: inline-block;
-
-//		  a {
-//		  	padding: 0 1rem 0 0.2rem;
-//		  	background-position: 1em center;
-//			  color: $white;
-//			  display: block;
-//			  height: 20px;
-//		    @include transition( background 0.5s );
-
-//			  &:hover{
-//			  	color: $white;
-//			  	background: $dark-blue;
-//			  	text-decoration: none;
-//			  }
-//		  }
-
-//  	}
-//  }
-//}
