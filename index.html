@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /index.html
+title: Mehakovi&cacute;
+---
+
+<section id="home">
+
+	<header>
+		<h1>Digital marketing strategy</h1>
+	</header>
+
+  <div class="cards">
+	  {% for post in site.posts %}
+      {% include card.html %}
+	  {% endfor %}
+  <div>
+</section>

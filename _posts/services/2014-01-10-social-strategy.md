@@ -1,14 +1,10 @@
 ---
 layout: post
 title: Social strategy
+category: services
 tags: services, strategy, methods
+overview: The social strategy outlines mix of business resources and social channels and tools used to garner new insights, build relationships and connect your business more closely with your customers via social media. The social strategy also takes into consideration how your business' personality needs to be delivered and the governance processes that need to be put in place for a successful social media program.
 ---
-
-## Overview
-
-The social strategy outlines mix of business resources and social channels and tools used to garner new insights, build relationships and connect your business more closely with your customers via social media. The social strategy also takes into consideration how your business' personality needs to be delivered and the governance processes that need to be put in place for a successful social media program.
-
-***
 
 ## The purpose
 

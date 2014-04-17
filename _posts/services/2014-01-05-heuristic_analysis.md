@@ -1,17 +1,10 @@
 ---
 layout: post
 title: Heuristic analysis
+category: services
 tags: services, research, context
+overview: Heuristic reviews are a way to quickly review the usability of a digital property based on a number of usability principals/heuristics without having to conduct user research.
 ---
-
-## Overview
-
-Originally developed by [Nielsen][nielsen], [heuristic reviews][heuristic-wiki] are a way to objectively review the usability of a digital property based on a number of usability principals/heuristics.
-
-[nielsen]: http://www.nielsen.com/us/en.html
-[heuristic-wiki]: [http://en.wikipedia.org/wiki/Heuristic_evaluation]
-
-***
 
 ## The purpose
 

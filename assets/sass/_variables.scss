@@ -7,6 +7,8 @@ $white: #fff;
 $blue: rgba(20,104,215,0.75);
 $dark-blue: rgba(0,76,153,0.9);
 
+$accent-color: desaturate(darken($base-accent-color, 20), 30);
+
 // SCREEN SIZES
 $s-small: 500px;
 $m-small: 570px;

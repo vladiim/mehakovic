@@ -13,7 +13,7 @@ exclude: [todo.md, Gemfile, Gemfile.lock, Guardfile,
           Rakefile.rb, .sass-cache]
 
 relative_permalinks: false
-permalink: :title
+permalink: /:categories/:title
 
 cdn: http://www.mehakovic.com
 url: http://www.mehakovic.com

@@ -1,0 +1,18 @@
+<article class="card">
+
+	{% if post.category %}
+    <div class="ribbon-wrapper">
+    	<div class="ribbon">{{ post.category }}</div>
+    </div>
+  {% endif %}
+
+  <div class="card-image">
+    <img src="https://raw.github.com/Magnus-G/Random/master/mountains.png" alt="">
+  </div>
+  <div class="card-header">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </div>
+  <div class="card-copy">
+    <p>{{ post.overview | intro_text }}</p>
+  </div>
+</article>

@@ -1,0 +1,7 @@
+@mixin logo {
+  border: 2px solid transparentize(white, 0.3);
+  border-radius: 50%;
+  padding: .7em;
+  font-weight: bold;
+  font-size: 130%;
+}

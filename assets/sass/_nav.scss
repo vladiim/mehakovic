@@ -1,5 +1,5 @@
 nav {
-  $navigation-background: $dark-gray;
+  $navigation-background: $accent-color;
   $navigation-color: transparentize(white, 0.3);
   $navigation-color-hover: white;
   $navigation-height: 60px;
@@ -57,11 +57,7 @@ nav {
       width: auto;
 
       #logo {
-        border: 2px solid $navigation-color;
-        border-radius: 50%;
-        padding: .7em;
-        font-weight: bold;
-        font-size: 130%;
+        @include logo;
       }
 
       a {

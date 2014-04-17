@@ -1,14 +1,10 @@
 ---
 layout: post
 title: CRM & loyalty strategy
+category: services
 tags: services, strategy, methods
+overview: The CRM and loyalty strategy outlines the business resources and technological fit required to achieve the business' goals via a CRM and loyalty program.
 ---
-
-## Overview
-
-The CRM and loyalty strategy outlines the business resources and technological fit required to achieve the business' goals via a CRM and loyalty program.
-
-***
 
 ## The purpose
 

@@ -7,7 +7,13 @@
   - revise copy (services, portfolio)
   - write about copy
   - revise article copy
-  - brief me is an email linkto
+  - brief me is an email link to
+  - footer content
+	  - about page
+	  - contact
+	  - privacy policy
+	  - redirects
+	  	- my/hollys social accounts as redirect links
 * set up analytics
   - GA
 * add permissions policy to AIM user group https://console.aws.amazon.com/iam/home?region=us-east-1#groups

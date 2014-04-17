@@ -1,18 +1,14 @@
 ---
 layout: post
 title: Content strategy
+category: services
 tags: services, strategy, methods
+overview: The content strategy is a framework around governing the type of content your business needs to produce to best engage your audience. Content strategy extends beyond editorial to technical specifications, editorial processes and governance policies. Often it is closely aligned with UX, social or channel strategies also.
 ---
 
-## Overview
+## The purpose
 
 Content is the currency of your digital marketing. It is the product information on your site, the images you post on social media feeds and it's the meta data you use to describe yourself to search engines to be found.
-
-The content strategy is a framework around governing the type of content your business needs to produce to best engage your audience. Content strategy extends beyond editorial to technical specifications, editorial processes and governance policies. Often it is closely aligned with UX, social or channel strategies also.
-
-***
-
-## The purpose
 
 During {{page.title}} we answer:
 
