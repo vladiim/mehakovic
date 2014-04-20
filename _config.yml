@@ -10,7 +10,7 @@ assets:
 exclude: [todo.md, Gemfile, Gemfile.lock, Guardfile, 
           config.ru, Procfile, readme.md, sass, unicorn.rb, 
           vendor, log, assets, tmp, config, s3_website.yml, 
-          Rakefile.rb, .sass-cache]
+          Rakefile.rb, .sass-cache, js/unmini, css/unmini]
 
 relative_permalinks: false
 permalink: /:categories/:title

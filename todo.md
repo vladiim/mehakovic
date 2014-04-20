@@ -3,6 +3,10 @@
 * design
 	- burbon & burbon neat
   - design site
+* asset documentation
+	- document how scss and coffee is compiled in the import file
+	- @include
+	- @depend
 * Content
   - revise copy (services, portfolio)
   - write about copy

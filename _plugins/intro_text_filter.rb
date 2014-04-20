@@ -2,7 +2,7 @@ module Jekyll
 	module IntroTextFilter
 
     def intro_text(input)
-    	"#{input.to_s[0, 95]}..."
+    	"#{input.to_s[0, 90]}..."
     end
 
 	end
