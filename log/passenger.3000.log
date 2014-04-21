@@ -1279,3 +1279,12 @@ App 1395 stdout:
 App 12453 stdout: 
 [ 2014-04-21 09:34:47.0532 1225/0x1081d3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 12453, listening on unix:/tmp/passenger.1.0.1213/generation-0/backends/preloader.12453
 App 12693 stdout: 
+App 17000 stdout: 
+[ 2014-04-21 09:44:26.0504 1225/0x1081d3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 17000, listening on unix:/tmp/passenger.1.0.1213/generation-0/backends/preloader.17000
+App 17156 stdout: 
+App 59754 stdout: 
+[ 2014-04-21 11:00:03.5109 1225/0x1081d3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 59754, listening on unix:/tmp/passenger.1.0.1213/generation-0/backends/preloader.59754
+App 60024 stdout: 
+App 80079 stdout: 
+[ 2014-04-21 12:06:47.6556 1225/0x1081d3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 80079, listening on unix:/tmp/passenger.1.0.1213/generation-0/backends/preloader.80079
+App 80225 stdout: 

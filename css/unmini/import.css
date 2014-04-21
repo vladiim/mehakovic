@@ -250,6 +250,61 @@ body {
 section.site {
   margin: 60px 20px; }
 
+article#post-layout header .left-header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  display: block;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  padding: 5px;
+  margin-top: 210px; }
+  article#post-layout header .left-header:last-child {
+    margin-right: 0; }
+article#post-layout header .right-header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  float: right;
+  position: absolute;
+  margin: 0;
+  top: 110px;
+  left: 0;
+  right: 0;
+  z-index: -1; }
+  article#post-layout header .right-header:last-child {
+    margin-right: 0; }
+article#post-layout header .tags {
+  margin: -20px 0 20px 0; }
+article#post-layout .first-hr {
+  clear: both;
+  margin: 260px 0 1.5em 0;
+  width: 100%; }
+@media screen and (min-width: 620px) {
+  article#post-layout header .left-header {
+    margin-top: 250px; } }
+@media screen and (min-width: 720px) {
+  article#post-layout header .left-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-top: 0; }
+    article#post-layout header .left-header:last-child {
+      margin-right: 0; }
+  article#post-layout header .right-header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    position: relative;
+    margin: 0;
+    top: 0; }
+    article#post-layout header .right-header:last-child {
+      margin-right: 0; } }
+
 html {
   *zoom: 1;
   text-align: left; }
@@ -314,8 +369,11 @@ html {
     font-family: "PT Sans", sans-serif;
     font-style: italic; }
   html .site ul, html .site ol {
-    margin: -1.2em 0 0 20px;
+    margin: -1.2em 0 0 25px;
     list-style-type: disc; }
+  html .site ul li ul, html .site ol li ol {
+    margin: 0 0 0 20px;
+    list-style-type: square; }
 
 a {
   color: base-accent-color;
