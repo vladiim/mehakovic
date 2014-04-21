@@ -1,0 +1,14 @@
+<header id="hero">
+	<h1>{{ page.title }}</h1>
+	<div class="left-header">
+		<h2>{{ page.overview }}</h2>
+		<div class="tags">
+		  {% for tag in page.tags %}
+	      <a href="/{{ tag | un_commatize }}">{{ tag }}</a>
+		  {% endfor %}
+		</div>
+	</div>
+	<div class="right-header">
+		<img src="https://raw.github.com/Magnus-G/Random/master/mountains.png">
+	</div>
+</header>

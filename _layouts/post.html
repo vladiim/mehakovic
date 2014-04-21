@@ -3,20 +3,13 @@ layout: default
 ---
 
 <article id="post-layout">
-	<header>
-		<h1>{{ page.title }}</h1>
-		<div class="left-header">
-			<h2>{{page.overview}}</h2>
-			<div class="tags">
-			  {% for tag in page.tags %}
-		      <a href="/">{{tag}}</a>
-			  {% endfor %}
-			</div>
-		</div>
-		<div class="right-header">
-			<img src="https://raw.github.com/Magnus-G/Random/master/mountains.png">
-		</div>
-	</header>
+	<section>
+  <section class="breadcrumb">
+  	<a href="/{{ page.category }}/">{{ page.category }}</a>
+  	<a href="{{ page.url }}">{{ page.title | un_capatalize }}</a>
+  </section>
+
+  {% include hero.html %}
 
   <hr class="first-hr">
 
