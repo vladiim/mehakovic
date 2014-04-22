@@ -525,6 +525,8 @@ nav {
 
 header#hero h1 {
   margin-top: -0.5em; }
+header#hero h1.home {
+  margin-top: 0; }
 header#hero .left-header {
   float: left;
   display: block;

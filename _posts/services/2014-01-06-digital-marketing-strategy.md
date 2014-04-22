@@ -4,6 +4,7 @@ title: Digital marketing strategy
 category: services
 tags: services, strategy, methods
 overview: The digital marketing strategy articulates the role of digital within your organisation and the interplay between digital functions (with close attention to IT and marketing).
+homepage_post: true
 ---
 
 ## The purpose

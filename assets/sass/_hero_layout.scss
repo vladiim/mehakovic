@@ -7,6 +7,10 @@ header#hero {
     margin-top: -0.5em;
   }
 
+  h1.home {
+    margin-top: 0;
+  }
+
   .left-header {
     @include span-columns(12);
     display: block;

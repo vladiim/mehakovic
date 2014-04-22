@@ -2,14 +2,15 @@ source "https://rubygems.org"
 
 ruby "2.1.1"
 
-gem "jekyll",        "~> 1.3.0"
+gem "jekyll",   "~> 1.3.0"
+gem "debugger", "~> 1.6.6"
 
 # --------- Server  --------- #
-gem 'rack-jekyll',   "~> 0.4.1"
-gem "passenger",     "~> 4.0.37"
-gem "rack-contrib",  "~> 1.1.0"
+gem 'rack-jekyll',  "~> 0.4.1"
+gem "passenger",    "~> 4.0.37"
+gem "rack-contrib", "~> 1.1.0"
 
-gem "s3_website"
+gem "s3_website",   "~> 1.7.0"
 
 # --------- Assets  --------- #
 group :development do
@@ -27,5 +28,5 @@ group :development do
 end
 
 # --------- Code snippet highlights  --------- #
-gem "rubypython",    "~> 0.6.3"
-gem "pygments.rb",   "~> 0.5.4"
+gem "rubypython",  "~> 0.6.3"
+gem "pygments.rb", "~> 0.5.4"

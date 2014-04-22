@@ -6,12 +6,24 @@ title: Mehakovi&cacute;
 
 <section id="home">
 
-	<header>
-		<h1>Digital marketing strategy</h1>
+	<header id="hero">
+		<h1 class="home">Digital marketing strategy</h1>
+		<div class="left-header">
+			<h2>Hi, blah blah blah</h2>
+			<ul>
+				<li>Blah</li>
+				<li>Blah</li>
+				<li>Blah</li>
+			</ul>
+		</div>
+		<div class="right-header">
+			<img src="https://raw.github.com/Magnus-G/Random/master/mountains.png">
+		</div>
 	</header>
 
   <div class="cards">
-	  {% for post in site.posts %}
+  	{% assign posts = site.posts | homepage_posts %}
+  	{% for post in posts %}
       {% include card.html %}
 	  {% endfor %}
   <div>
