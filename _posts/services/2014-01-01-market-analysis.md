@@ -2,7 +2,7 @@
 layout: post
 title: Market analysis
 category: services
-tags: [services, research, context]
+tags: services research context
 overview: Market analysis enables us to understand your business within the broader scope of the market within which it operates. Within the analysis we review your business' market dynamics an identify broader macro-trends that can be exploited by yourself, competitors or up starts.
 ---
 
