@@ -22,12 +22,6 @@ title: Mehakovi&cacute;
 	</header>
 
   <div class="cards">
-  	{% for post in site.homeposts %}
-      {% include card.html %}
-	  {% endfor %}
-  <div>
-
-  <div class="cards">
   	{% assign posts = site.posts | homepage_posts %}
   	{% for post in posts %}
       {% include card.html %}

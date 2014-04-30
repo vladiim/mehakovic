@@ -5,9 +5,15 @@ layout: default
 <article id="tag-index-layout">
 
   <section class="breadcrumb">
+    <a href="/">Home</a>
   	<a href="/{{ page.title }}/">{{ page.title }}</a>
   </section>
 
 	<h1>{{page.title}}</h1>
-	<h2>YO DIS IS A PAGE TAG PAGE!</h2>
+
+  <div class="cards">
+    {% for post in page.posts %}
+      {% include card.html %}
+    {% endfor %}
+  <div>
 </article>
