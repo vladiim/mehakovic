@@ -25,7 +25,6 @@
 
 # Phase 2
 
-* generate an index page for every tag
 * marketing
 	- webmaster
 	- sitemap.xml
@@ -33,6 +32,9 @@
 	- google author
 	- SEO:
 		* meta tags
+			- meta keywords
+			- meta description
+			- meta author
 		* semantic info across pages
 * revise images and S3 deployment with
 	- http://amazon.rubyforge.org/

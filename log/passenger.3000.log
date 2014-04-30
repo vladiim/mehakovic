@@ -1483,3 +1483,12 @@ PassengerHelperAgent(1912,0x10dfee000) malloc: *** mach_vm_map(size=8388608) fai
 PassengerHelperAgent(1912,0x10dfee000) malloc: *** error: can't allocate region securely
 PassengerHelperAgent(1912,0x10dfee000) malloc: *** set a breakpoint in malloc_error_break to debug
 App 2039 stdout: 
+App 6298 stdout: 
+[ 2014-04-30 19:19:12.1871 1121/0x10e074000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 6298, listening on unix:/tmp/passenger.1.0.1110/generation-0/backends/preloader.6298
+App 6440 stdout: 
+App 8281 stdout: 
+[ 2014-04-30 19:31:28.3492 1121/0x10e074000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 8281, listening on unix:/tmp/passenger.1.0.1110/generation-0/backends/preloader.8281
+App 8425 stdout: 
+App 14381 stdout: 
+[ 2014-04-30 19:55:25.5055 1121/0x10e074000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 14381, listening on unix:/tmp/passenger.1.0.1110/generation-0/backends/preloader.14381
+App 14523 stdout: 

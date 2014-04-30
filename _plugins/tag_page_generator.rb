@@ -4,6 +4,7 @@ module Jekyll
     attr_reader :tag
 
     def initialize(site, tag)
+      # require 'debugger'; debugger
       @site       = site
       @base       = site.source
       @dir, @tag  = tag, tag

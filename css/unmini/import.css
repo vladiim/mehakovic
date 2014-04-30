@@ -295,6 +295,9 @@ html {
     @media screen and (min-width: 680px) {
       html h2 {
         font-size: 1.4em; } }
+  html .post h2 {
+    line-height: .7em;
+    margin-bottom: 0.6em; }
   html h3 {
     font-family: "PT Sans", sans-serif;
     font-size: 1em;
