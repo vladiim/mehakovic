@@ -1,8 +1,9 @@
+
+http://www.michaelgallego.fr/blog/2013/08/27/static-website-on-s3-cloudfront-and-route-53-the-right-way/
+
+* page speed is terrible! 1.8s!
 * set up on aws
 	- fix the group policies to apply to my bucket only: https://console.aws.amazon.com/iam/home?region=us-east-1#groups
-* design
-	- burbon & burbon neat
-  - design site
 * asset documentation
 	- document how scss and coffee is compiled in the import file
 	- @include
@@ -21,6 +22,8 @@
 * set up analytics
   - GA
 * add permissions policy to AIM user group https://console.aws.amazon.com/iam/home?region=us-east-1#groups
+* explore article design like http://contently.com/strategist/2014/05/01/5-responsive-design-trends-that-will-revolutionize-your-business/
+
 ***
 
 # Phase 2

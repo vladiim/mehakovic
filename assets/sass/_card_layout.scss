@@ -22,7 +22,7 @@
   position: relative;
 
   @include media($m-med) {
-    @include span-columns(4);  
+    @include span-columns(4);
     @include omega(3n);
   }
 

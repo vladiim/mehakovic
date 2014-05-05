@@ -2,8 +2,7 @@ s3_id: <%= ENV["MEHAKOVIC_S3_ID"] %>
 s3_secret: <%= ENV["MEHAKOVIC_S3_SECRET"] %>
 s3_bucket: <%= ENV["MEHAKOVIC_S3_BUCKET"] %>
 max_age:
-  "*": 300
-gzip: true
+  "*": 600
 gzip_zopfli: true
 s3_endpoint: ap-southeast-2
 cloudfront_distribution_id: <%= ENV["MEHAKOVIC_CLOUDFRONT_ID"] %>

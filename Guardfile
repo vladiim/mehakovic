@@ -21,12 +21,12 @@ guard "process", name: "Combine Javascript from CoffeeScript", command: "coffee 
   watch %r{assets/coffee/.+\.coffee}
 end
 
-guard "process", name: "Minify application javascript", command: "juicer merge js/unmini/import.js -o js/app.js -s --force" do
+guard "process", name: "Minify application javascript", command: "juicer merge js/unmini/import.js -o js/app.min.js -s --force" do
   watch %r{js/unmini/.+\.js}
 end
 
-guard "process", name: "Change minified js in _site", command: "cp js/app.js _site/js/app.js" do
-	watch %r{js/app.js}
+guard "process", name: "Change minified js in _site", command: "cp js/app.min.js _site/js/app.min.js" do
+	watch %r{js/app.min.js}
 end
 
 guard "livereload", apply_js_live: true, apply_css_live: true do
