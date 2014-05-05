@@ -30,7 +30,7 @@ The work involved in the {{page.title}} includes:
 
 ## Deliverables
 
-{{see `# Deliverables` variable in `./content/variables.md`}}
+{{ site.service_deliverables_copy }}
 
 * Refined channel matrix
 * Strategy for

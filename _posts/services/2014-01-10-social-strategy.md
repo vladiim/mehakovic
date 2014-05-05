@@ -20,7 +20,7 @@ During {{page.title}} we answer:
 
 ## The work
 
-The work involved in the {{page.title}} includes:
+{{ site.service_deliverables_copy }}
 
 * Initial research (see research services)
 * Articulation of the social strategy:

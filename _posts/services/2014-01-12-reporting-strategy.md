@@ -33,7 +33,7 @@ The work involved in the {{page.title}} includes:
 
 ## Deliverables
 
-{{see `# Deliverables` variable in `./content/variables.md`}}
+{{ site.service_deliverables_copy }}
 
 * Digital marketing reporting dashboard approved by wider business stakeholders
 * Implementation (or functional specification pending requirements) of reporting dashboard

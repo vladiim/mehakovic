@@ -32,7 +32,7 @@ The work involved in the {{page.title}} includes:
 
 ## Deliverables
 
-{{see `# Deliverables` variable in `./content/variables.md`}}
+{{ site.service_deliverables_copy }}
 
 * Key business outcomes required as a result of digital marketing programs
 * The business' value flow

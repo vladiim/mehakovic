@@ -31,7 +31,7 @@ The work involved in the {{page.title}} includes:
 
 ## Deliverables
 
-{{see `# Deliverables` variable in `./content/variables.md`}}
+{{ site.service_deliverables_copy }}
 
 * Specific, measurable, attainable, relevant and time-bound business objectives
 * Business taxonomy

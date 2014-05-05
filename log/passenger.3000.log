@@ -1498,3 +1498,32 @@ App 17581 stdout:
 App 21797 stdout: 
 [ 2014-04-30 21:00:46.5518 1121/0x10e074000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 21797, listening on unix:/tmp/passenger.1.0.1110/generation-0/backends/preloader.21797
 App 21941 stdout: 
+[ 2014-05-05 16:27:47.9762 9021/0x7fff784eb310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLnByYjAxNS90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.prb015/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '9006', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-05 16:27:48.1303 9023/0x7fff784eb310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.9006/generation-0/request
+[ 2014-05-05 16:27:48.3244 9025/0x7fff784eb310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.9006/generation-0/logging
+[ 2014-05-05 16:27:48.3248 9021/0x7fff784eb310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 9079 stdout: 
+[ 2014-05-05 16:27:56.3063 9023/0x10d631000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 9079, listening on unix:/tmp/passenger.1.0.9006/generation-0/backends/preloader.9079
+App 9291 stdout: 
+App 9485 stdout: 
+PassengerHelperAgent(14723,0x10d3bb000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14723,0x10d3bb000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14723,0x10d3bb000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14730,0x10d3bb000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14730,0x10d3bb000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14730,0x10d3bb000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14935,0x10dPassengerHelperAgent(15232,0x10d3bb000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(15232,0x10d3bb000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(15232,0x10d3bb000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 15491 stderr: PassengerHelperAgent(15492,0x10d441000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+App 15491 stderr: PassengerHelperAgent(15492,0x10d441000) malloc: *** error: can't allocate region securely
+App 15491 stderr: PassengerHelperAgent(15492,0x10d441000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 15491 stdout: 
+[ 2014-05-05 16:54:41.6346 9023/0x10d441000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 15491, listening on unix:/tmp/passenger.1.0.9006/generation-0/backends/preloader.15491
+App 15683 stdout: 
+App 27304 stdout: 
+[ 2014-05-05 17:05:13.4020 9023/0x10d441000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 27304, listening on unix:/tmp/passenger.1.0.9006/generation-0/backends/preloader.27304
+App 27592 stdout: 
+App 61024 stdout: 
+[ 2014-05-05 17:45:57.2040 9023/0x10d441000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 61024, listening on unix:/tmp/passenger.1.0.9006/generation-0/backends/preloader.61024
+App 61199 stdout: 

@@ -9,9 +9,14 @@
   $breadcrumb-color-hover: $base-accent-color;
   $breadcrumb-color-active: $breadcrumb-color;
 
-  @include inline-block;
+  display: none;
+
   text-align: left;
   margin-bottom: $base-line-height;
+
+  @include media($m-small) {
+    @include inline-block;
+  }
 
   a {
     @include inline-block;

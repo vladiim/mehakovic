@@ -643,13 +643,16 @@ header#hero .tags {
     text-align: center; }
 
 .breadcrumb {
-  display: inline-block;
-  vertical-align: baseline;
-  zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
+  display: none;
   text-align: left;
   margin-bottom: 1.5em; }
+  @media screen and (min-width: 570px) {
+    .breadcrumb {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto; } }
   .breadcrumb a {
     display: inline-block;
     vertical-align: baseline;

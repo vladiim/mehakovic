@@ -1,3 +1,3 @@
 $(document).ready ->
-	$(".card").bind "touchstart click", ->
+	$(".card").bind "click", ->
     window.location.href = $(@).find('a').attr('href');
