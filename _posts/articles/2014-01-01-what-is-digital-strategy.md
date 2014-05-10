@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digital strategy
+title: What is digital strategy?
 category: articles
 tags: articles strategy
 overview: This is the first in a series of weekly articles aimed at teaching anyone on how to create, implement and manage digital strategies. In this introductory article we'll go through the value delivered by strategy, the core components that comprise a robust strategy, why you would want a digital strategy and some of the elements that go into a digital strategy.
@@ -10,7 +10,7 @@ overview: This is the first in a series of weekly articles aimed at teaching any
 
 ## Digital strategy's origins
 
--> drawing: military 
+-> drawing: military
 
 In Greek, strategy means the art of [art of troop leader](http://en.wikipedia.org/wiki/Strategy). Though we can use strategies in our day-to-day lives, strategic thinking as a discipline bears its origins from the military where generals looked to achieve and maintain an advantage over their opponent. It’s not surprising that strategy became a core component of military practice, as in wars you have:
 

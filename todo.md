@@ -1,3 +1,9 @@
+* fix s3_website.yml to upload cnames then run `s3_website cfg apply`
+
+* make font size bigger: body @ 1.5em on large screen
+
+* AWS: not using cache: http://www.webpagetest.org/performance_optimization.php?test=140506_S5_10FP&run=1&cached=0
+
 * set up on aws
 	- fix the group policies to apply to my bucket only: https://console.aws.amazon.com/iam/home?region=us-east-1#groups
 
