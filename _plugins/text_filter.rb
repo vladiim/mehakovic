@@ -1,6 +1,10 @@
 module Jekyll
   module TextFilter
 
+    def intro_text(input)
+      "#{ input.to_s[0, 105] }..."
+    end
+
     def un_capatalize(input)
       input.to_s.downcase
     end

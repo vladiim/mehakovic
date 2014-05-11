@@ -4,6 +4,8 @@ title: Roche - congress app
 category: folio
 tags: folio ux product direction roche
 overview: Roche Congress enabled Health Care Professionals (HCP) across the world to continue discussing new breakthroughs that were announced during global specialist conferences. By doing so, the mobile application sped up the diffusion of medical breakthroughs from the conference podium to clinics.
+image:
+image_alt:
 ---
 
 # Work

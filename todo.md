@@ -25,6 +25,15 @@
 
 ***
 
+# Illustrations
+
+* What is strategy
+	- chess
+	- art of war
+	- military plan/battle plan
+
+***
+
 # Phase 2
 
 * marketing
