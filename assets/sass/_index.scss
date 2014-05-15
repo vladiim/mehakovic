@@ -1,8 +1,4 @@
 #index {
-	h1 {
-		line-height: 1.05em;
-		margin-bottom: 20px;
-	}
 
   .left-header {
   	@include span-columns(12);
@@ -14,8 +10,14 @@
   	@include media( $s-med ) { @include span-columns(7); }
   }
 
-  b {
+  h1 {
+    line-height: 1.05em;
+  }
+
+  h1, p.intro-copy {
 		margin-bottom: 20px;
+    text-align: center;
+    @include media( $s-med ) { text-align: left; }
   }
 
   ul {

@@ -405,9 +405,6 @@ nav {
         color: white;
         text-decoration: none; }
 
-#index h1 {
-  line-height: 1.05em;
-  margin-bottom: 20px; }
 #index .left-header {
   float: left;
   display: block;
@@ -438,8 +435,14 @@ nav {
       width: 57.35098%; }
       #index .right-header:last-child {
         margin-right: 0; } }
-#index b {
-  margin-bottom: 20px; }
+#index h1 {
+  line-height: 1.05em; }
+#index h1, #index p.intro-copy {
+  margin-bottom: 20px;
+  text-align: center; }
+  @media screen and (min-width: 680px) {
+    #index h1, #index p.intro-copy {
+      text-align: left; } }
 #index ul {
   margin: 0 0 0 25px;
   font-size: .75; }
@@ -466,7 +469,7 @@ nav {
   background-color: #f7f7f7;
   border-radius: 0.1875em;
   border: 1px solid #dddddd;
-  margin-bottom: 0.75em;
+  margin: 0.375em 0;
   cursor: pointer;
   box-shadow: 0 2px 4px #e6e6e6;
   position: relative; }

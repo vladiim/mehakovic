@@ -14,7 +14,7 @@
   background-color: $card-background;
   border-radius: $base-border-radius;
   border: $card-border;
-  margin-bottom: $base-line-height/2;
+  margin: $base-line-height/4 0;
   cursor: pointer;
   box-shadow: 0 2px 4px darken($base-body-color, 10);
   position: relative;
