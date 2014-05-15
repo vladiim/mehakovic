@@ -1,18 +1,15 @@
 <article class="card" data-url="{{ post.url }}">
 
-	{% if post.category %}
-    <div class="ribbon-wrapper">
-    	<div class="ribbon">{{ post.category }}</div>
-    </div>
-  {% endif %}
+  <header class="card-header">
+    <h4><a href="{{ post.url }}">{{ post.title }}</a><h4>
+  </header>
 
-  <div class="card-image">
-		<img src="/images/{{ post.image }}" alt="{{ post.image_alt }}">
-  </div>
-  <div class="card-header">
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </div>
-  <div class="card-copy">
-    <p>{{ post.overview | intro_text }}</p>
-  </div>
+  <section class="card-details">
+    <div class="card-image">
+      <img src="/images/{{ post.image }}" alt="{{ post.image_alt }}">
+    </div>
+    <div class="card-copy">
+      <p>{{ post.overview | intro_text }}</p>
+    </div>
+  </section>
 </article>
