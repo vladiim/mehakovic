@@ -1,0 +1,34 @@
+#index {
+	h1 {
+		line-height: 1.05em;
+		margin-bottom: 20px;
+	}
+
+  .left-header {
+  	@include span-columns(12);
+  	@include media( $s-med ) { @include span-columns(5); }
+  }
+
+  .right-header {
+  	@include span-columns(12);
+  	@include media( $s-med ) { @include span-columns(7); }
+  }
+
+  b {
+		margin-bottom: 20px;
+  }
+
+  ul {
+  	margin: 0 0 0 25px;
+  	font-size: .75;
+  }
+
+  .topics {
+  	margin: 20px 0 -3px 0;
+  }
+
+  .topics, ul {
+  	display: none;
+  	@include media( $s-med ) { display: block; }
+  }
+}

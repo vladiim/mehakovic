@@ -293,9 +293,6 @@ html {
   html h2 {
     font-family: "PT Sans", sans-serif;
     font-weight: 400 bold; }
-  html .post h2 {
-    line-height: .7em;
-    margin-bottom: 0.6em; }
   html h3 {
     font-family: "PT Sans", sans-serif;
     font-weight: 700 bold;
@@ -303,12 +300,12 @@ html {
   html p.date {
     color: rgba(51, 51, 51, 0.4);
     font-family: "PT Sans", sans-serif; }
-  html p {
+  html p, html ul {
     font-family: "PT Sans", sans-serif;
     font-weight: 300;
     letter-spacing: 1;
     margin-bottom: 1.5em; }
-    html p span {
+    html p span, html ul span {
       font-family: "PT Sans", sans-serif;
       font-weight: 600;
       font-size: .8em;
@@ -407,6 +404,52 @@ nav {
       nav ul li a:hover {
         color: white;
         text-decoration: none; }
+
+#index h1 {
+  line-height: 1.05em;
+  margin-bottom: 20px; }
+#index .left-header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #index .left-header:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 680px) {
+    #index .left-header {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      #index .left-header:last-child {
+        margin-right: 0; } }
+#index .right-header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #index .right-header:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 680px) {
+    #index .right-header {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%; }
+      #index .right-header:last-child {
+        margin-right: 0; } }
+#index b {
+  margin-bottom: 20px; }
+#index ul {
+  margin: 0 0 0 25px;
+  font-size: .75; }
+#index .topics {
+  margin: 20px 0 -3px 0; }
+#index .topics, #index ul {
+  display: none; }
+  @media screen and (min-width: 680px) {
+    #index .topics, #index ul {
+      display: block; } }
 
 .cards {
   *zoom: 1; }
@@ -586,7 +629,8 @@ header#hero .tags {
 .footer {
   background: #40526b;
   padding: 3em 1.618em;
-  width: 100%; }
+  width: 100%;
+  clear: both; }
   .footer .footer-links {
     *zoom: 1;
     margin-bottom: 1.5em; }

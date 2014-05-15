@@ -1,13 +1,7 @@
 body {
   font-size: $base-font-size * .6;
-
-  @include media( $s-med ) {
-    font-size: $base-font-size * .8;
-  }
-
-  @include media( $s-large ) {
-    font-size: $base-font-size;
-  }
+  @include media( $s-med )   { font-size: $base-font-size * .8; }
+  @include media( $s-large ) { font-size: $base-font-size; }
 }
 
 html {
@@ -53,12 +47,12 @@ html {
     }
   }
 
-  .post {
-    h2 {
-      line-height: .7em;
-      margin-bottom: .6em
-    }
-  }
+//  .post {
+//    h2 {
+//      line-height: .7em;
+//      margin-bottom: .6em
+//    }
+//  }
 
   h3 {
    font-family: $sans-serif;
@@ -76,7 +70,7 @@ html {
 //    margin-bottom: .5em;
   }
 
-  p {
+  p, ul {
     font-family: $sans-serif;
     font-weight: 300;
     letter-spacing: 1;

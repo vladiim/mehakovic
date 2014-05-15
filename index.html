@@ -6,26 +6,26 @@ title: Mehakovi&cacute;
 
 <section id="home">
 
-	<header id="hero">
+	<header id="index">
 		<div class="left-header">
-			<h1 class="home">Digital marketing strategy & content.</h1>
-			<h2>Hi, we're a husband & wife team. We use customer-centric design principals  and specialise in:</h2>
+			<h1>Digital marketing strategy.</h1>
+			<b>Hi, this blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital.</b>
+			<p class="topics">Topics covered include:</p>
 			<ul>
-				<li>User experience</li>
-				<li>Content strategy, editorial</li>
-				<li>CRM/loyalty</li>
-				<li>Channel planning.</li>
+				<li>User/customer experience</li>
+				<li>Content strategy and editorial</li>
+				<li>CRM and loyalty</li>
+				<li>Consumer insights</li>
+				<li>Data-driven marketing</li>
+				<li>Brand/channel planning.</li>
 			</ul>
 		</div>
 		<div class="right-header">
-			<img src="/images/home_hero.jpg">
+	  	{% assign posts = site.posts | homepage_posts %}
+	  	{% for post in posts %}
+	      {% include card.html %}
+		  {% endfor %}
 		</div>
 	</header>
 
-  <div class="cards">
-  	{% assign posts = site.posts | homepage_posts %}
-  	{% for post in posts %}
-      {% include card.html %}
-	  {% endfor %}
-  <div>
 </section>
