@@ -21,6 +21,12 @@
 
   .card-image {
     @include span-columns(4);
+    @include media($s-small) { @include span-columns(2); }
+    @include media($m-small) { @include span-columns(1); }
+    @include media($s-med) { @include span-columns(4); }
+    @include media($s-large) { @include span-columns(3); }
+    @include media($l-large) { @include span-columns(2); }
+
     overflow: hidden;
     max-height: 150px;
 

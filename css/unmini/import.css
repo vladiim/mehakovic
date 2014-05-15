@@ -479,6 +479,46 @@ nav {
     max-height: 150px; }
     .card .card-image:last-child {
       margin-right: 0; }
+    @media screen and (min-width: 410px) {
+      .card .card-image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 14.70196%; }
+        .card .card-image:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 570px) {
+      .card .card-image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 6.17215%; }
+        .card .card-image:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 680px) {
+      .card .card-image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .card .card-image:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 860px) {
+      .card .card-image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%; }
+        .card .card-image:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 1000px) {
+      .card .card-image {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 14.70196%; }
+        .card .card-image:last-child {
+          margin-right: 0; } }
     .card .card-image img {
       width: 100%;
       -webkit-transition: all 0.2s ease-in-out;
