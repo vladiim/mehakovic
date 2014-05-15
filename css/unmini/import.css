@@ -259,6 +259,15 @@ article#post-layout .post {
   padding: 10px;
   box-shadow: 0 2px 4px #e6e6e6; }
 
+body {
+  font-size: 0.9em; }
+  @media screen and (min-width: 680px) {
+    body {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 860px) {
+    body {
+      font-size: 1.5em; } }
+
 html {
   *zoom: 1;
   text-align: left; }
@@ -280,36 +289,20 @@ html {
     text-transform: uppercase; }
   html h1 {
     font-family: "PT Sans", sans-serif;
-    font-size: 2em;
-    font-weight: 600 bold;
-    margin-bottom: .6em; }
-    @media screen and (min-width: 680px) {
-      html h1 {
-        font-size: 2.4em; } }
+    font-weight: 600 bold; }
   html h2 {
     font-family: "PT Sans", sans-serif;
-    font-size: 1.2em;
-    font-weight: 400 bold;
-    line-height: 1.4em;
-    margin-bottom: 1.2em; }
-    @media screen and (min-width: 680px) {
-      html h2 {
-        font-size: 1.4em; } }
+    font-weight: 400 bold; }
   html .post h2 {
     line-height: .7em;
     margin-bottom: 0.6em; }
   html h3 {
     font-family: "PT Sans", sans-serif;
-    font-size: 1em;
     font-weight: 700 bold;
-    text-transform: uppercase;
-    line-height: 1.4em;
-    margin-bottom: .5em; }
+    text-transform: uppercase; }
   html p.date {
     color: rgba(51, 51, 51, 0.4);
-    font-family: "PT Sans", sans-serif;
-    font-size: .8em;
-    margin-bottom: .5em; }
+    font-family: "PT Sans", sans-serif; }
   html p {
     font-family: "PT Sans", sans-serif;
     font-weight: 300;
@@ -360,6 +353,7 @@ nav {
   background-color: #40526b;
   border-bottom: 1px solid #2d394b;
   font-family: "PT Sans", sans-serif;
+  font-size: 0.9em;
   height: 60px;
   width: 100%;
   z-index: 999;
@@ -406,8 +400,7 @@ nav {
       border: 2px solid rgba(255, 255, 255, 0.7);
       border-radius: 50%;
       padding: .7em;
-      font-weight: bold;
-      font-size: 130%; }
+      font-weight: bold; }
     nav ul li a {
       font-weight: 400;
       color: rgba(255, 255, 255, 0.7); }
@@ -528,11 +521,13 @@ nav {
 
 header#hero h1 {
   margin-top: 0em; }
-  @media screen and (min-width: 570px) {
+  @media screen and (min-width: 720px) {
     header#hero h1 {
       margin-top: -0.5em; } }
 header#hero h1.home {
   margin-top: 0; }
+header#hero h2 {
+  font-size: 1.5em; }
 header#hero .left-header {
   float: left;
   display: block;
@@ -563,7 +558,8 @@ header#hero .right-header {
   header#hero .right-header:last-child {
     margin-right: 0; }
 header#hero .tags {
-  margin: -20px 0 20px 0; }
+  margin: 0 0 20px 0;
+  font-size: 1.05em; }
 @media screen and (min-width: 720px) {
   header#hero .left-header {
     float: left;
@@ -651,14 +647,17 @@ header#hero .tags {
 .breadcrumb {
   display: none;
   text-align: left;
-  margin-bottom: 1.5em; }
-  @media screen and (min-width: 570px) {
+  margin-bottom: 1.5em;
+  font-size: 0.75em;
+  line-height: 1em; }
+  @media screen and (min-width: 720px) {
     .breadcrumb {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
       *display: inline;
-      *vertical-align: auto; } }
+      *vertical-align: auto;
+      font-size: 1.2em; } }
   .breadcrumb a {
     display: inline-block;
     vertical-align: baseline;
@@ -668,15 +667,15 @@ header#hero .tags {
     background-color: white;
     border: 1px solid #dddddd;
     color: #999999;
-    line-height: 2.25em;
-    margin-right: -5px;
+    line-height: 1.5em;
+    margin-right: -10px;
     font-size: .8em;
-    padding: 0 0.5625em 0 1.125em;
+    padding: 0 0.375em 0 0.75em;
     position: relative;
     text-decoration: none;
     margin-bottom: 2px; }
     .breadcrumb a:first-child {
-      padding-left: 1.125em;
+      padding-left: 0.75em;
       border-top-left-radius: 0.1875em;
       border-bottom-left-radius: 0.1875em; }
     .breadcrumb a:last-child {
@@ -684,25 +683,12 @@ header#hero .tags {
       color: #999999;
       border-bottom-right-radius: 0.1875em;
       border-top-right-radius: 0.1875em;
-      padding-right: 1.125em; }
+      padding-right: 0.75em; }
     .breadcrumb a:hover {
       color: #477dca;
       background-color: white; }
     .breadcrumb a:hover:after {
       border-left-color: white; }
-    .breadcrumb a:after, .breadcrumb a:before {
-      position: absolute;
-      top: 0px;
-      right: auto;
-      bottom: 0px;
-      left: 100%;
-      border-bottom: 1.125em solid transparent;
-      border-left: 0.5625em solid transparent;
-      border-top: 1.125em solid transparent;
-      content: '';
-      display: block;
-      margin: auto;
-      z-index: 2; }
     .breadcrumb a:last-child:after, .breadcrumb a:last-child:before {
       border: none; }
     .breadcrumb a:before {
@@ -711,7 +697,3 @@ header#hero .tags {
       z-index: 1; }
     .breadcrumb a:after {
       border-left-color: white; }
-    @media screen and (min-width: 720px) {
-      .breadcrumb a {
-        font-size: 1em;
-        padding: 0 1.125em 0 1.5em; } }

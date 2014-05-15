@@ -1585,3 +1585,26 @@ App 3970 stdout:
 App 16633 stdout: 
 [ 2014-05-11 08:17:05.8455 926/0x103eca000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 16633, listening on unix:/tmp/passenger.1.0.922/generation-0/backends/preloader.16633
 App 16847 stdout: 
+[ 2014-05-15 07:52:33.2164 4305/0x7fff74692310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFjMWprd3YvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1c1jkwv/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '4304', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-15 07:52:33.8714 4311/0x7fff74692310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4304/generation-0/request
+[ 2014-05-15 07:52:34.2838 4313/0x7fff74692310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4304/generation-0/logging
+[ 2014-05-15 07:52:34.2844 4305/0x7fff74692310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 4325 stdout: 
+[ 2014-05-15 07:52:44.0895 4311/0x10d01f000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 4325, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.4325
+App 4566 stdout: 
+App 4742 stdout: 
+App 4748 stdout: 
+App 5288 stdout: 
+[ 2014-05-15 07:59:13.1839 4311/0x10ce45000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 5288, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.5288
+App 5432 stdout: 
+App 6756 stdout: 
+[ 2014-05-15 19:06:10.9643 4311/0x10cfdc000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 6756, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.6756
+App 6898 stdout: 
+App 7152 stdout: 
+App 9779 stdout: 
+[ 2014-05-15 19:30:33.3889 4311/0x10cfdc000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 9779, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.9779
+App 9923 stdout: 
+App 9946 stdout: 
+App 13153 stdout: 
+[ 2014-05-15 19:37:24.1152 4311/0x10cfdc000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 13153, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.13153
+App 13297 stdout: 

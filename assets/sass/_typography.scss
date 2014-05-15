@@ -1,8 +1,14 @@
-@include media( $s-small ){ html { $base-font-size: 12px !global; } }
-@include media( $m-small ){ html { $base-font-size: 14px !global; } }
-@include media( $s-med )  { html { $base-font-size: 16px !global; } }
-@include media( $s-large ){ html { $base-font-size: 17px !global; } }
-@include media( $l-large ){ html { $base-font-size: 18px !global; } }
+body {
+  font-size: $base-font-size * .6;
+
+  @include media( $s-med ) {
+    font-size: $base-font-size * .8;
+  }
+
+  @include media( $s-large ) {
+    font-size: $base-font-size;
+  }
+}
 
 html {
 	$medium-screen: $s-med;
@@ -26,24 +32,24 @@ html {
 
   h1 {
     font-family: $sans-serif;
-    font-size: 2em;
+//    font-size: 2em;
     font-weight: 600 bold;
-    margin-bottom: .6em;
+//    margin-bottom: .6em;
 
     @include media($medium-screen) {
-      font-size: 2.4em;
+//      font-size: 2.4em;
     }
   }
 
   h2 {
     font-family: $sans-serif;
-    font-size: 1.2em;
+//    font-size: 1.2em;
     font-weight: 400 bold;
-    line-height: 1.4em;
-    margin-bottom: 1.2em;
+//    line-height: 1.4em;
+//    margin-bottom: 1.2em;
 
     @include media($medium-screen) {
-      font-size: 1.4em;
+//      font-size: 1.4em;
     }
   }
 
@@ -56,18 +62,18 @@ html {
 
   h3 {
    font-family: $sans-serif;
-   font-size: 1em;
+//   font-size: 1em;
    font-weight: 700 bold;
    text-transform: uppercase;
-   line-height: 1.4em;
-   margin-bottom: .5em; 
+//   line-height: 1.4em;
+//   margin-bottom: .5em;
   }
 
   p.date {
     color: transparentize($base-font-color, .6);
     font-family: $sans-serif;
-    font-size: .8em;
-    margin-bottom: .5em;
+//    font-size: .8em;
+//    margin-bottom: .5em;
   }
 
   p {

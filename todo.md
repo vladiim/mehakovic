@@ -4,6 +4,8 @@
 
 * AWS: not using cache: http://www.webpagetest.org/performance_optimization.php?test=140506_S5_10FP&run=1&cached=0
 
+https://github.com/BBC-News/Imager.js/
+
 * set up on aws
 	- fix the group policies to apply to my bucket only: https://console.aws.amazon.com/iam/home?region=us-east-1#groups
 
@@ -31,6 +33,22 @@
 	- chess
 	- art of war
 	- military plan/battle plan
+
+***
+
+# folio
+
+* getty
+* http://audibrandexperience.com.au/
+* http://www.thinkwithgoogle.com/
+
+***
+
+# Marketing
+
+http://okdork.com/2014/05/07/10-marketing-tactics-to-net-41000-downloads-on-amazon/
+
+Compile a list of marketing interest sites/groups and email
 
 ***
 
