@@ -1608,3 +1608,421 @@ App 9946 stdout:
 App 13153 stdout: 
 [ 2014-05-15 19:37:24.1152 4311/0x10cfdc000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 13153, listening on unix:/tmp/passenger.1.0.4304/generation-0/backends/preloader.13153
 App 13297 stdout: 
+[ 2014-05-16 18:22:53.1953 1058/0x7fff77a48310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLno4NTZyNC90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.z856r4/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '1048', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+PassengerWatchdog(1061,0x7fff77a48310) malloc: *** mach_vm_map(size=1048576) failed (error code=268435459)
+PassengerWatchdog(1061,0x7fff77a48310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(1061,0x7fff77a48310) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerWatchdog(1063,0x7fff77a48310) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerWatchdog(1063,0x7fff77a48310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(1063,0x7fff77a48310) malloc: *** set a breakpoint in malloc_error_break to debug
+[ 2014-05-16 18:22:55.1589 1060/0x7fff77a48310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1048/generation-0/request
+[ 2014-05-16 18:23:00.5863 1062/0x7fff77a48310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1048/generation-0/logging
+[ 2014-05-16 18:23:00.5867 1058/0x7fff77a48310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 1069 stdout: 
+[ 2014-05-16 18:23:25.5028 1060/0x10978a000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 1069, listening on unix:/tmp/passenger.1.0.1048/generation-0/backends/preloader.1069
+App 1237 stdout: 
+PassengerHelperAgent(1301,0x1084e9000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(1301,0x1084e9000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(1301,0x1084e9000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(1807,0x1084e9000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(1807,0x1084e9000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(1807,0x1084e9000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(2470,0x1084e9000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(2470,0x1084e9000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(2470,0x1084e9000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 2633 stdout: 
+App 2634 stdout: 
+App 14988 stdout: 
+[ 2014-05-16 18:33:15.5429 1060/0x10856f000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 14988, listening on unix:/tmp/passenger.1.0.1048/generation-0/backends/preloader.14988
+App 15237 stdout: 
+[ 2014-05-19 06:57:17.4811 3337/0x7fff760d0310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFvMWEydGEvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1o1a2ta/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '3332', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-19 06:57:19.5605 3341/0x7fff760d0310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3332/generation-0/request
+[ 2014-05-19 06:57:20.9239 3343/0x7fff760d0310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3332/generation-0/logging
+[ 2014-05-19 06:57:20.9241 3337/0x7fff760d0310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3355 stdout: 
+[ 2014-05-19 06:57:27.5075 3341/0x10e2e4000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 3355, listening on unix:/tmp/passenger.1.0.3332/generation-0/backends/preloader.3355
+App 3497 stdout: 
+PassengerHelperAgent(3968,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(3968,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(3968,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(5136,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(5136,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(5136,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(5282,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(5282,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(5282,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(5711,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(5711,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(5711,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(5998,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(5998,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(5998,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(6289,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(6289,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(6289,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(7622,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(7622,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(7622,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(7774,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(7774,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(7774,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(8485,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(8485,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(8485,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(9299,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(9299,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(9299,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(10021,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(10021,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(10021,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 10673 stdout: 
+PassengerHelperAgent(11084,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(11084,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(11084,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(11786,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(11786,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(11786,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(11925,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(11925,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(11925,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(12066,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(12066,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(12066,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(12202,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(12202,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(12202,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(12341,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(12341,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(12341,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(12842,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(12842,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(12842,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14146,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14146,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14146,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14427,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14427,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14427,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14564,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14564,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14564,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(14972,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(14972,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(14972,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(15522,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(15522,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(15522,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(15659,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(15659,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(15659,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(16317,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(16317,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(16317,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(16567,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(16567,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(16567,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(17222,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(17222,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(17222,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(17498,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(17498,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(17498,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(17772,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(17772,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(17772,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(18013,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(18013,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(18013,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(18287,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(18287,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(18287,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(18716,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(18716,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(18716,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(19273,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(19273,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(19273,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(19420,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(19420,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(19420,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(19560,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(19560,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(19560,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(20386,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(20386,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(20386,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(20666,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(20666,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(20666,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(21845,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(21845,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(21845,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(23527,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(23527,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(23527,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(23661,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(23661,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(23661,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(24071,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(24071,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(24071,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(24914,0x10ePassengerHelperAgent(25761,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(25761,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(25761,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(26499,0x10ePassengerHelperAgent(26934,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(26934,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(26934,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(27498,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(27498,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(27498,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(28339,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(28339,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(28339,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(28473,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(28473,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(28473,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(29588,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(29588,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(29588,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(29989,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(29989,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(29989,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(30135,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(30135,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(30135,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(30425,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(30425,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(30425,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(30715,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(30715,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(30715,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(31001,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(31001,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(31001,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(31579,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(31579,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(31579,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(32598,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(32598,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(32598,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(32891,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(32891,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(32891,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(35362,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(35362,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(35362,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(35802,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(35802,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(35802,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(36524,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(36524,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(36524,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(36814,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(36814,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(36814,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(37101,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(37101,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(37101,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(37682,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(37682,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(37682,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(38258,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(38258,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(38258,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(39547,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(39547,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(39547,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(40259,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(40259,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(40259,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(40406,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(40406,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(40406,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(40551,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(40551,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(40551,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(40691,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(40691,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(40691,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(40983,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(40983,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(40983,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(41697,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(41697,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(41697,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(43138,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(43138,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(43138,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(43424,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(43424,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(43424,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(43856,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(43856,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(43856,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(44997,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(44997,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(44997,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(45119,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(45119,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(45119,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(45838,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(45838,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(45838,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(46118,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(46118,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(46118,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(46264,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(46264,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(46264,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(46412,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(46412,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(46412,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(48825,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(48825,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(48825,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(49527,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(49527,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(49527,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(50939,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(50939,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(50939,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(51079,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(51079,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(51079,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(51503,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(51503,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(51503,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(51643,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(51643,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(51643,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(52631,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(52631,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(52631,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(52777,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(52777,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(52777,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(52919,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(52919,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(52919,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(53345,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(53345,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(53345,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(53775,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(53775,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(53775,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(54678,0x10ePassengerHelperAgent(57637,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(57637,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(57637,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(59037,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(59037,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(59037,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(59321,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(59321,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(59321,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(61309,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(61309,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(61309,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(62007,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(62007,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(62007,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(62153,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(62153,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(62153,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(62294,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(62294,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(62294,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(62853,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(62853,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(62853,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(63402,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(63402,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(63402,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(63539,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(63539,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(63539,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(63678,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(63678,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(63678,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(64100,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(64100,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(64100,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(64840,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(64840,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(64840,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(66397,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(66397,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(66397,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(67232,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(67232,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(67232,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(67932,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(67932,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(67932,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(70127,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(70127,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(70127,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(70264,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(70264,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(70264,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(71115,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(71115,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(71115,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(71803,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(71803,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(71803,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(72091,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(72091,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(72091,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(72529,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(72529,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(72529,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(73373,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(73373,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(73373,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(73530,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(73530,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(73530,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(75355,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(75355,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(75355,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(76490,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(76490,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(76490,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(77765,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(77765,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(77765,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(78063,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(78063,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(78063,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(78361,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(78361,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(78361,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(78781,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(78781,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(78781,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(80646,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(80646,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(80646,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(80792,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(80792,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(80792,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(83569,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(83569,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(83569,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 83739 stderr: PassengerHelperAgent(83740,0x10e0f4000) malloc: 
+App 83739 stderr: *** mach_vm_map(size=8388608) failed (error code=268435459)
+App 83739 stderr: PassengerHelperAgent(83740,0x10e0f4000) malloc: *** error: can't allocate region securely
+App 83739 stderr: PassengerHelperAgent(83740,0x10e0f4000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 83739 stdout: 
+[ 2014-05-19 07:48:21.9023 3341/0x10e0f4000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 83739, listening on unix:/tmp/passenger.1.0.3332/generation-0/backends/preloader.83739
+App 83883 stdout: 
+PassengerHelperAgent(84232,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(84232,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(84232,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(88524,0x10e06e000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(88524,0x10e06e000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(88524,0x10e06e000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 88603 stdout: 
+[ 2014-05-19 07:56:26.4690 3341/0x10e0f4000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 88603, listening on unix:/tmp/passenger.1.0.3332/generation-0/backends/preloader.88603
+App 88745 stdout: 
+App 88748 stdout: 

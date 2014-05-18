@@ -10,6 +10,7 @@
     </div>
     <div class="card-copy">
       <p>{{ post.overview | intro_text }}</p>
+      <span class="meta">{{ post.date | date_to_string }}</span>
     </div>
   </section>
 </article>
