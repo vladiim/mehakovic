@@ -9,47 +9,13 @@
   width: 100%;
   clear: both;
 
-  .footer-links {
-    @include clearfix;
-    margin-bottom: $base-line-height;
-
-    @include media($m-med) {
-      @include shift(3);
-    }
-  }
-
-  ul {
-    margin-bottom: $base-line-height*2;
-
-    @include media($m-med) {
-      @include span-columns(3);
-      @include omega(3n);
-      @include clearfix;
-    }
-  }
-
-  li {
-    text-align: center;
-
-    @include media($m-med) {
-      text-align: left;
-    }
-  }
-
-  li a {
+  a {
     color: $footer-link-color;
 
     &:hover {
       color: transparentize($footer-color, 0);
     }
   }
-
-  li h3 {
-    color: $footer-color;
-    font-size: 1em;
-    font-weight: 800;
-    margin-bottom: .4em;
-  }  
 
   hr {
     border: 1px solid transparentize($footer-disclaimer-color, .3);
