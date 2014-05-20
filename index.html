@@ -6,26 +6,32 @@ title: Mehakovi&cacute;
 
 <section id="home">
 
-	<header id="index">
-		<div class="left-header">
-			<h1>Digital marketing strategy.</h1>
-			<b>Hi, this blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital.</b>
-			<p class="topics">Topics covered include:</p>
-			<ul>
-				<li>User/customer experience</li>
-				<li>Content strategy and editorial</li>
-				<li>CRM and loyalty</li>
-				<li>Consumer insights</li>
-				<li>Data-driven marketing</li>
-				<li>Brand/channel planning.</li>
-			</ul>
+	<div id="index">
+
+		<div class="left-header-image">
+			<header class="left-header">
+				<h1>Digital marketing strategy.</h1>
+				<p class="intro-copy">Hi, this blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital.</p>
+				<p class="topics">Topics covered include:</p>
+				<ul>
+					<li>User/customer experience</li>
+					<li>Content strategy and editorial</li>
+					<li>CRM and loyalty</li>
+					<li>Consumer insights</li>
+					<li>Data-driven marketing</li>
+					<li>Brand/channel planning.</li>
+				</ul>
+			</header>
 		</div>
+
 		<div class="right-header">
-	  	{% assign posts = site.posts | homepage_posts %}
-	  	{% for post in posts %}
-	      {% include card.html %}
-		  {% endfor %}
+			<section class="list">
+		  	{% assign posts = site.posts | homepage_posts %}
+		  	{% for post in posts %}
+		      {% include list_item.html %}
+			  {% endfor %}
+			</section>
 		</div>
-	</header>
+	</div>
 
 </section>
