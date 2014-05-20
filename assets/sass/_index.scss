@@ -1,14 +1,35 @@
 #index {
 
+  .left-header-image {
+    @include span-columns(12);
+    background: lighten($base-border-color, 10);
+
+    @include media( $m-small ) {
+      background: url("/images/home.jpg") no-repeat right center;
+      background-size: 200%;
+      margin-left: -20px;
+      min-height: 600px;
+      @include span-columns(6);
+    }
+  }
+
   .left-header {
-  	@include span-columns(12);
-  	@include media( $m-small ) { @include span-columns(6); }
+    padding: 1.5em;
   }
 
   .right-header {
-  	@include span-columns(12);
-  	@include media( $m-small ) { @include span-columns(6); }
+    padding: 1.5em;
+
+    @include span-columns(12);
+    @include media( $m-small ) { @include span-columns(6); }
   }
+
+//  .left-header, .right-header {
+//    padding: 1.5em;
+
+//  	@include span-columns(12);
+//  	@include media( $m-small ) { @include span-columns(6); }
+//  }
 
   h1 {
     line-height: 1.05em;

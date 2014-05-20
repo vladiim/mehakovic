@@ -1,6 +1,6 @@
 module Jekyll
   module TextFilter
-    AVE_WORDS_PER_MINUTE = 40
+    AVE_WORDS_PER_MINUTE = 240
 
     def intro_text(input)
       "#{ input.to_s[0, 105] }..."
@@ -19,8 +19,9 @@ module Jekyll
     end
 
     def est_time_to_read(input)
-      minutes = input / AVE_WORDS_PER_MINUTE
-      "~#{minutes} mins to read"
+      minutes = input < AVE_WORDS_PER_MINUTE ? "Under 1" : input / AVE_WORDS_PER_MINUTE
+
+      "#{minutes} mins to read"
     end
   end
 end
