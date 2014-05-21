@@ -2240,3 +2240,6 @@ App 17573 stdout:
 [ 2014-05-22 07:21:48.6686 1166/0x103a58000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 17573, listening on unix:/tmp/passenger.1.0.1162/generation-0/backends/preloader.17573
 App 17745 stdout: 
 App 17829 stdout: 
+App 18658 stdout: 
+[ 2014-05-22 07:31:04.6413 1166/0x103a58000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 18658, listening on unix:/tmp/passenger.1.0.1162/generation-0/backends/preloader.18658
+App 18804 stdout: 

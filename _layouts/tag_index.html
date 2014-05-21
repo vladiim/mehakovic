@@ -11,9 +11,14 @@ layout: default
 
 	<h1>{{ page.title | capitalize }}</h1>
 
-  <div class="cards">
+<!--   <div class="cards">
     {% for post in page.posts %}
       {% include card.html %}
     {% endfor %}
-  <div>
+  <div> -->
+  <section class="list">
+    {% for post in site.posts %}
+      {% include list_item.html %}
+    {% endfor %}
+  </section>
 </article>
