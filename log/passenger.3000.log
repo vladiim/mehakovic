@@ -2207,3 +2207,36 @@ App 8809 stdout:
 App 21796 stdout: 
 [ 2014-05-21 07:45:20.1537 1084/0x1029c0000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 21796, listening on unix:/tmp/passenger.1.0.1080/generation-0/backends/preloader.21796
 App 22316 stdout: 
+[ 2014-05-22 07:10:23.5014 1164/0x7fff773bd310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFtOWQ5enYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1m9d9zv/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '1162', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-22 07:10:26.3870 1166/0x7fff773bd310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1162/generation-0/request
+[ 2014-05-22 07:10:28.0978 1168/0x7fff773bd310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1162/generation-0/logging
+[ 2014-05-22 07:10:28.0983 1164/0x7fff773bd310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 1181 stdout: 
+[ 2014-05-22 07:10:36.5066 1166/0x103c32000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 1181, listening on unix:/tmp/passenger.1.0.1162/generation-0/backends/preloader.1181
+App 1325 stdout: 
+App 1401 stdout: 
+PassengerHelperAgent(2181,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(2181,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(2181,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(3451,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(3451,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(3451,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(3603,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(3603,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(3603,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(3744,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(3744,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(3744,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(4641,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(4641,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(4641,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(4793,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(4793,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(4793,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(6313,0x1039bc000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(6313,0x1039bc000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(6313,0x1039bc000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 17573 stdout: 
+[ 2014-05-22 07:21:48.6686 1166/0x103a58000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 17573, listening on unix:/tmp/passenger.1.0.1162/generation-0/backends/preloader.17573
+App 17745 stdout: 
+App 17829 stdout: 

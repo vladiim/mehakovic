@@ -2,6 +2,7 @@
 layout: post
 title: Qualitative research
 category: services
+published: false
 tags: services research context
 overview: Qualitative research builds a quick picture of your customer segments. This customer understanding enables us to review any strategies recommended objectively from the point of view of your customers.
 ---

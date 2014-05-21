@@ -2,6 +2,7 @@
 layout: post
 title: Quantitative analysis
 category: services
+published: false
 tags: services research context
 overview: Quantitative analysis identifies opportunities and issues in your current business by analysing how your customers currently interact with your business. Statistical models are applied to customer data in order to identify, classify and report on key trends and insights.
 ---

@@ -3,12 +3,13 @@
   .left-header-image {
     @include span-columns(12);
     background: lighten($base-border-color, 10);
+    padding-bottom: 5em;
 
     @include media( $m-small ) {
       background: url("/images/home.jpg") no-repeat right center;
       background-size: 200%;
       margin-left: -20px;
-      min-height: 600px;
+      min-height: 700px;
       @include span-columns(6);
     }
   }
@@ -23,13 +24,6 @@
     @include span-columns(12);
     @include media( $m-small ) { @include span-columns(6); }
   }
-
-//  .left-header, .right-header {
-//    padding: 1.5em;
-
-//  	@include span-columns(12);
-//  	@include media( $m-small ) { @include span-columns(6); }
-//  }
 
   h1 {
     line-height: 1.05em;

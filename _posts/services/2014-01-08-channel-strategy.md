@@ -2,6 +2,7 @@
 layout: post
 title: Channel strategy
 category: services
+published: false
 tags: services strategy methods
 overview: The channel strategy creates a framework to help you manage the digital channels your business invests resources in. This ensures you focus on a channel-mix that works best to the needs of your business and your customers.
 ---
