@@ -3,7 +3,7 @@ guard "process", name: "Rebuild jekyll", command: "jekyll build" do
   watch %r{_layouts/*}
   watch %r{_data/*}
   watch %r{_includes/*}
-  watch %r{./*.html}
+  # watch %r{./*.html}
 end
 
 guard "sass", input: "assets/sass", output: "css/unmini" do

@@ -1,16 +1,16 @@
 header#hero {
-  $left-header-background: transparentize(white, .4);
+  $light-background: transparentize(white, .4);
   $border-color: $base-border-color;
   $background: lighten($border-color, 10);
 
   h1 {
+    background: $light-background;
     margin-top: 0em;
     padding: .2em 1em;
     text-align: center;
 
-    @include media($m-med) {
-      margin-top: -0.5em;
-    }
+    @include media($m-med) { margin-top: -0.5em; }
+    @include media($sm-small) { background: none; }
   }
 
   .hero-image {
@@ -28,21 +28,29 @@ header#hero {
     font-size: $base-font-size;
   }
 
-  .centre, .tags {
+  .centre, .meta {
     text-align: center;
   }
 
   .hero-intro {
     @include span-columns(12);
     display: block;
-    background: $left-header-background;
+    background: $light-background;
     z-index: 1;
     padding: .2em 1em;
     margin-top: 40%;
   }
 
-  .tags {
-    margin: 0 0 20px 0;
+  .meta {
     font-size: $base-font-size * .7;
+    ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0 auto;
+    }
+
+    li {
+      display: inline-block;
+    }
   }
 }

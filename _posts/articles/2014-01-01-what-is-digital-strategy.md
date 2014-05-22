@@ -3,6 +3,7 @@ layout: post
 title: What is digital strategy?
 category: articles
 tags: articles strategy
+author: Vlad Mehakovic
 overview: Creating effective strategies give any business a competitive advantage. This article explains how strategy applies to digital.
 image: digital_strategy_chess.jpg
 image_alt: Digital Strategy Chess

@@ -10,8 +10,12 @@ article#post-layout {
   }
 
   .post {
+    margin-top: 90%;
     background-color: $background;
     padding: 1em;
     box-shadow: 0 2px 4px darken($base-body-color, 10);
+
+    @include media($sm-small) { margin-top: 70%; }
+    @include media($l-small) { margin-top: 60%; }
   }
 }
