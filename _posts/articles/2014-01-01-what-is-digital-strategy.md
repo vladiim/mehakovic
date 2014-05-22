@@ -43,19 +43,19 @@ In order to develop a strategy we need to go through four phases: identify outco
 
 ***
 
-## 1. Identifying outcomes
+## 1. Identify outcomes
 
 Outcomes are events that happen as a result of deploying a strategy. They can be positive, like gaining new customers or negative, like loosing market share. In order to guide us in making "the right" decision we need to have a clear understanding on the outcomes we want to create. By identifying and articulating the outcomes we want we can better weigh up our trade-offs and identify the "right" strategy to deploy.
 
 ***
 
-## 2. Creating contextual understanding
+## 2. Create contextual understanding
 
 Contextual understanding allows us to best represent our environment in order to achieve our goals. When creating contextual understanding we need to highlight important insights and disregard informational noise. Our ability to understand our context greatly affects our ability to create the best strategy. Nokia was the most successful mobile phone manufacturer in the world until Apple unveiled that the context for these devices shouldn't be mobile phones but mobile computing. By misinterpreting their context Nokia lost out on one of the most lucrative market in modern business.
 
 ***
 
-## 3. Faming solutions
+## 3. Frame solutions
 
 A solution encompasses the procedures and rules that dictate how we use a set of resources to solve a problem or leverage an opportunity. Solutions take contextual understanding into consideration and define the best course to take. It is impossible to have full contextual understanding, it is also impossible to understand how our environment may change in the future. Therefore any solution we architect as part of our strategy relies on making assumptions.
 
@@ -63,7 +63,7 @@ If we don't make assumptions our ability to make a strategy can be suffocated by
 
 ***
 
-## 4. Optimising through feedback
+## 4. Optimise through feedback
 
 <cite>What's measured improves. <span class='reference'>Peter F. Drucker</span></cite>
 

@@ -1,14 +1,21 @@
 <header id="hero">
 	<h1>{{ page.title }}</h1>
-	<div class="left-header">
-		<h2>{{ page.overview }}</h2>
+
+	<div class="hero-image">
+		<img src="/images/{{ page.image }}" alt="{{ page.image_alt }}">
+	</div>
+
+	<div class="hero-intro">
+		<h2 class="centre">{{ page.overview }}</h2>
+
 		<div class="tags">
 		  {% for tag in page.tags %}
-	      <a href="/{{ tag | un_commatize }}">{{ tag }}</a>
+	      <a href="/{{ tag | un_commatize }}" class="centre">{{ tag }}</a>
 		  {% endfor %}
 		</div>
 	</div>
-	<div class="right-header">
+
+<!-- 	<div class="right-header">
 		<img src="/images/{{ page.image }}" alt="{{ page.image_alt }}">
-	</div>
+	</div> -->
 </header>

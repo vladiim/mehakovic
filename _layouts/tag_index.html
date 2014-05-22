@@ -4,18 +4,13 @@ layout: default
 
 <article id="tag-index-layout">
 
-  <section class="breadcrumb">
+  <section class="breadcrumb index">
     <a href="/">Home</a>
   	<a href="/{{ page.title }}/">{{ page.title }}</a>
   </section>
 
 	<h1>{{ page.title | capitalize }}</h1>
 
-<!--   <div class="cards">
-    {% for post in page.posts %}
-      {% include card.html %}
-    {% endfor %}
-  <div> -->
   <section class="list">
     {% for post in site.posts %}
       {% include list_item.html %}
