@@ -1,0 +1,17 @@
+.tag_list_item {
+	.image {
+		@include span-columns(12);
+		@include media($s-small) { @include span-columns(3); }
+		@include media($m-med) {
+			img {
+				max-height: 100px;
+				float: right;
+			}
+		}
+	}
+
+	.list_item {
+		@include span-columns(12);
+		@include media($s-small) { @include span-columns(9); }
+	}
+}

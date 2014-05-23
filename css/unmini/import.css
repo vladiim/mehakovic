@@ -427,7 +427,7 @@ nav {
       background: url("/images/home.jpg") no-repeat right center;
       background-size: 200%;
       margin-left: -20px;
-      min-height: 700px;
+      min-height: 750px;
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -500,6 +500,41 @@ article.list-item {
     @media screen and (min-width: 720px) {
       article.list-item .meta {
         font-size: 0.6em; } }
+
+.tag_list_item .image {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .tag_list_item .image:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 400px) {
+    .tag_list_item .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%; }
+      .tag_list_item .image:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 720px) {
+    .tag_list_item .image img {
+      max-height: 100px;
+      float: right; } }
+.tag_list_item .list_item {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .tag_list_item .list_item:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 400px) {
+    .tag_list_item .list_item {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 74.41059%; }
+      .tag_list_item .list_item:last-child {
+        margin-right: 0; } }
 
 header#hero h1 {
   background: rgba(255, 255, 255, 0.6);

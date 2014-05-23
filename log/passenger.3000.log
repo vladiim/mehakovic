@@ -2287,3 +2287,35 @@ PassengerHelperAgent(13662,0x109a7c000) malloc: *** set a breakpoint in malloc_e
 App 14349 stdout: 
 [ 2014-05-23 07:07:21.4411 3380/0x109b02000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 14349, listening on unix:/tmp/passenger.1.0.3370/generation-0/backends/preloader.14349
 App 14580 stdout: 
+[ 2014-05-23 16:38:12.2484 1089/0x7fff724c9310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFtcWVwenYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1mqepzv/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '1088', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+PassengerWatchdog(1092,0x7fff724c9310) malloc: *** mach_vm_map(size=1048576) failed (error code=268435459)
+PassengerWatchdog(1092,0x7fff724c9310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(1092,0x7fff724c9310) malloc: *** set a breakpoint in malloc_error_break to debug
+[ 2014-05-23 16:38:16.2531 1091/0x7fff724c9310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1088/generation-0/request
+/Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:111:in `initialize': Connection refused - connect(2) for "127.0.0.1" port 3000 (Errno::ECONNREFUSED)
+	from /Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:111:in `new'
+	from /Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:111:in `connect'
+	from /Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:87:in `socket'
+	from /Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:91:in `head_request'
+	from /Users/vlad/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.37/helper-scripts/prespawn:151:in `<main>'
+[ 2014-05-23 16:38:19.9864 1097/0x7fff724c9310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1088/generation-0/logging
+[ 2014-05-23 16:38:20.2065 1089/0x7fff724c9310 agents/Watchdog/Main.cpp:760 ]: write() failed: Broken pipe (errno=32)
+     in 'void reportAgentsInformation(const WorkingObjectsPtr &, const vector<AgentWatcherPtr> &)' (Main.cpp:681)
+     in 'int main(int, char **)' (Main.cpp:724)
+
+[ 2014-05-23 16:41:34.8191 2534/0x7fff724c9310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLmp3bG94ZC90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.jwloxd/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '2533', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+PassengerWatchdog(2537,0x7fff724c9310) malloc: *** mach_vm_map(size=1048576) failed (error code=268435459)
+PassengerWatchdog(2537,0x7fff724c9310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(2537,0x7fff724c9310) malloc: *** set a breakpoint in malloc_error_break to debug
+[ 2014-05-23 16:41:35.3471 2536/0x7fff724c9310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.2533/generation-0/request
+PassengerWatchdog(2539,0x7fff724c9310) malloc: *** mach_vm_map(size=1048576) failed (error code=268435459)
+PassengerWatchdog(2539,0x7fff724c9310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(2539,0x7fff724c9310) malloc: *** set a breakpoint in malloc_error_break to debug
+[ 2014-05-23 16:41:36.4905 2538/0x7fff724c9310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.2533/generation-0/logging
+[ 2014-05-23 16:41:36.4912 2534/0x7fff724c9310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 2550 stdout: 
+[ 2014-05-23 16:41:53.8740 2536/0x10a744000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 2550, listening on unix:/tmp/passenger.1.0.2533/generation-0/backends/preloader.2550
+App 2707 stdout: 
+App 2719 stdout: 
+App 5321 stdout: 
+App 5663 stdout: 
