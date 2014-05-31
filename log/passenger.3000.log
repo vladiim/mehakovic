@@ -2319,3 +2319,37 @@ App 2707 stdout:
 App 2719 stdout: 
 App 5321 stdout: 
 App 5663 stdout: 
+[ 2014-05-28 07:20:47.1204 3289/0x7fff74dac310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFxa3N4NGkvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1qksx4i/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '3288', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-28 07:20:47.2703 3291/0x7fff74dac310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3288/generation-0/request
+[ 2014-05-28 07:20:47.5086 3293/0x7fff74dac310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3288/generation-0/logging
+[ 2014-05-28 07:20:47.5088 3289/0x7fff74dac310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3305 stdout: 
+[ 2014-05-28 07:20:53.9594 3291/0x108207000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 3305, listening on unix:/tmp/passenger.1.0.3288/generation-0/backends/preloader.3305
+App 3447 stdout: 
+App 4401 stderr: PassengerHelperAgent(4402,0x108016000) malloc: *** mach_vm_map(size=8388608) fa
+App 4401 stderr: iled (error code=268435459)
+App 4401 stderr: PassengerHelperAgent(4402,0x108016000) malloc: *** error: can't allocate region securely
+App 4401 stderr: PassengerHelperAgent(4402,0x108016000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 4401 stdout: 
+[ 2014-05-28 07:38:18.7858 3291/0x108016000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 4401, listening on unix:/tmp/passenger.1.0.3288/generation-0/backends/preloader.4401
+App 4543 stdout: 
+[ 2014-05-28 08:04:04.2140 3293/0x7fff74dac310 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2014-05-30 07:49:52.9318 3417/0x7fff7c093310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLno2dXFnZy90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.z6uqgg/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '3416', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-05-30 07:49:53.4944 3419/0x7fff7c093310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3416/generation-0/request
+PassengerWatchdog(3422,0x7fff7c093310) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerWatchdog(3422,0x7fff7c093310) malloc: *** error: can't allocate region securely
+PassengerWatchdog(3422,0x7fff7c093310) malloc: *** set a breakpoint in malloc_error_break to debug
+[ 2014-05-30 07:49:53.9904 3421/0x7fff7c093310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3416/generation-0/logging
+[ 2014-05-30 07:49:53.9909 3417/0x7fff7c093310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3433 stdout: 
+[ 2014-05-30 07:49:58.9856 3419/0x105b99000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 3433, listening on unix:/tmp/passenger.1.0.3416/generation-0/backends/preloader.3433
+App 3584 stdout: 
+App 3589 stdout: 
+[ 2014-05-30 07:52:24.6297 3421/0x7fff7c093310 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2014-06-01 09:02:08.7923 3551/0x7fff71f0e310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLm9sZ3RmYi90ZW1wX2Rpcl90b3VjaGVyLnBpZA==', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.olgtfb/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '3550', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-06-01 09:02:09.3589 3553/0x7fff71f0e310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3550/generation-0/request
+[ 2014-06-01 09:02:10.0787 3559/0x7fff71f0e310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3550/generation-0/logging
+[ 2014-06-01 09:02:10.0789 3551/0x7fff71f0e310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 3571 stdout: 
+[ 2014-06-01 09:02:15.8618 3553/0x109274000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 3571, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.3571
+App 3752 stdout: 

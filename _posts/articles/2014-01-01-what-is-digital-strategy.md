@@ -4,7 +4,7 @@ title: What is digital strategy?
 category: articles
 tags: articles strategy
 author: Vlad Mehakovic
-overview: Creating effective strategies give any business a competitive advantage. This article explains how strategy applies to digital.
+overview: In this article we define digital strategy and explain how it gives any businesses an advantage.
 image: digital_strategy_chess.jpg
 image_alt: Digital Strategy Chess
 
@@ -12,13 +12,20 @@ image_alt: Digital Strategy Chess
 
 ## TL;DR
 
-A strategy is the process where we make optimal decisions based on contextual understanding. In order to create a digital strategy we need to identify outcomes, create contextual understanding, frame solutions and optimise through feedback.
+A digital strategy is a plan of action designed around a series of decisions based on contextual understanding.
+
+A digital strategy must:
+
+* Identify outcomes
+* Create contextual understanding
+* Frame solutions
+* Optimise through feedback.
 
 ***
 
-## What is a strategy?
+## What is a strategy
 
-<cite>Business is like chess in that the hard part is not knowing the rules about how the pieces move, the hard part is being able to look ahead and make strategies. <span class='reference'>Paul Graham</span></cite>
+<cite itemprop="citation">Business is like chess in that the hard part is not knowing the rules about how the pieces move, the hard part is being able to look ahead and make strategies. <span class='reference'>Paul Graham</span></cite>
 
 A strategy is the process where we optimise the decisions we make based on the understanding we have of all our options and their trade-offs. Therefore when we create a strategy we need two things; an understanding of our context, a set of possible decisions. Our strategy then helps us make the right decision.
 
@@ -26,9 +33,9 @@ The difference when we make strategies within a digital environment is that we h
 
 ***
 
-## Why have a strategy?
+## Why have a strategy
 
-<cite>The contour of the land is an aid to the army; sizing up opponents to determine victory, assessing dangers and distance. "Those who do battle without knowing these will lose." <span class='reference'>Sun Tzu</span></cite>
+<cite itemprop="citation">The contour of the land is an aid to the army; sizing up opponents to determine victory, assessing dangers and distance. "Those who do battle without knowing these will lose." <span class='reference'>Sun Tzu</span></cite>
 
 Strategies are inherently helpful because they allow us to do more with less. Like many tools strategy was birthed through necessity on the battlefield. It's not surprising war brought on the origins of strategy, as war creates a situation where two sides each have winner-take-all goal, each with a limited amount of resources and many unknowns. The word it self originates from Greek where it meant, the [art of troop leader](http://en.wikipedia.org/wiki/Strategy).
 
@@ -38,7 +45,7 @@ In practice modern business has the same constraints as the people who originall
 
 ***
 
-## How we develop a strategy?
+## How to develop a strategy
 
 In order to develop a strategy we need to go through four phases: identify outcomes, create contextual understanding, frame solutions and optimise through feedback. These four phases will enable us to create a either a **foundation strategy** where we have no current strategy deployed, or an **emergent strategy** where we have a strategy and are looking to improve it.
 
@@ -66,7 +73,7 @@ If we don't make assumptions our ability to make a strategy can be suffocated by
 
 ## 4. Optimise through feedback
 
-<cite>What's measured improves. <span class='reference'>Peter F. Drucker</span></cite>
+<cite itemprop="citation">What's measured improves. <span class='reference'>Peter F. Drucker</span></cite>
 
 Feedback allows us to readjust our solutions and contextual understanding based on new insights. How could a general redeploy his troops without knowing how many survived their last battle? In order to gain actionable feedback we need to identify key metrics, measure them correctly and have processes in place that allow for rapid action based on how they change.
 

@@ -4,6 +4,8 @@
 
 * AWS: not using cache: http://www.webpagetest.org/performance_optimization.php?test=140506_S5_10FP&run=1&cached=0
 
+* image loading: http://24ways.org/2010/speed-up-your-site-with-delayed-content/
+
 https://github.com/BBC-News/Imager.js/
 
 * set up on aws
@@ -33,6 +35,26 @@ https://github.com/BBC-News/Imager.js/
 	- chess
 	- art of war
 	- military plan/battle plan
+
+***
+
+# Articles
+
+* success criteria
+	- stakeholder interviews: how to extract goals from the business
+	- read annual reports
+	- google trend
+	- defining calculations
+	- creating reporting structure
+* success criteria (check blog post)
+	- proving out assumptions, instrumentation
+	- doing research, why are customers churning? budget in chunks
+* research
+	- how to identify what you don't know? start with your success criteria
+	- getting high-level goals from a business using stakeholder workshop
+		* goals, challenges
+	- customer empathy mapping
+	- customer journey mapping
 
 ***
 

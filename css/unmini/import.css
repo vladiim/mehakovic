@@ -250,21 +250,23 @@ body {
 section.site {
   margin: 60px 20px; }
 
-article#post-layout .first-hr {
-  clear: both;
-  margin: 260px 0 1.5em 0;
-  width: 100%; }
-article#post-layout .post {
-  margin-top: 90%;
-  background-color: #f7f7f7;
-  padding: 1em;
-  box-shadow: 0 2px 4px #e6e6e6; }
-  @media screen and (min-width: 450px) {
-    article#post-layout .post {
-      margin-top: 70%; } }
-  @media screen and (min-width: 620px) {
-    article#post-layout .post {
-      margin-top: 60%; } }
+article#post-layout {
+  margin-top: -2px; }
+  article#post-layout .first-hr {
+    clear: both;
+    margin: 260px 0 1.5em 0;
+    width: 100%; }
+  article#post-layout .post {
+    margin-top: 90%;
+    background-color: #f7f7f7;
+    padding: 1em;
+    box-shadow: 0 2px 4px #e6e6e6; }
+    @media screen and (min-width: 450px) {
+      article#post-layout .post {
+        margin-top: 70%; } }
+    @media screen and (min-width: 620px) {
+      article#post-layout .post {
+        margin-top: 60%; } }
 
 body {
   font-size: 0.9em;
