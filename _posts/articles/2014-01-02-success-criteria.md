@@ -7,13 +7,13 @@ tags: articles success-criteria metrics goals
 overview: Success metrics allow us to specify the scope of our strategic process and gain stakeholder buy in.
 ---
 
-# TL;DR
+## TL;DR
 
 By adding additional insights and assumptions to a high-level goal we can create success criteria that give our digital strategy scope and buy in from the business. Success criteria also enable us to identify the initial research required based on our assumptions
 
 ***
 
-# Starting with goals
+## Starting with goals
 
 There would be no need for a [digital strategy](/articles/what-is-digital-strategy/) if we weren't trying to achieve some end. Often this end is stated as a high-level business goal such as 'reduce customer churn'.
 
@@ -23,7 +23,7 @@ Our high-level goal also influences on the research we conduct prior to creating
 
 ***
 
-# Why goals aren't enough
+## Why goals aren't enough
 
 Although goals give us initial direction they are infinite. If our aim is infinite we can't know whether our strategy has succeeded or not. Perhaps by executing our digital strategy we 'reduce customer churn' by 20% over six months, is that a good thing? Should we stop and move focus on another goal? Has our strategy been a failure?
 
@@ -31,31 +31,29 @@ High-level goals also make it difficult to estimate the resources we need to dep
 
 ***
 
-# The difference between success criteria and goals
+## The difference between success criteria and goals
 
-Success criteria take a high-level goal one step further. They give a high-level goal specificity and context allowing us to understand when we can move on or when we need to revise our strategy.
+Success criteria take a high-level goal one step further. They give a high-level goal specificity and context, allowing us to understand when we can move on or when we need to revise our strategy.
 
-For instance, after being briefed by [Vodafone](http://www.vodafone.com.au/), to 'reduce customer churn' we may find that (by researching churn rates by customer cohorts), in our market, monthly customer churn is the poorest with customers of their $30 a month plan by a large margin. We calculate that we can increase monthly revenue by $50,000 by decreasing customer churn by 7.5%*.
+For instance, imagine we've been briefed by [Vodafone](http://www.vodafone.com.au/), to 'reduce customer churn'. After investigating churn rates by customer cohorts we find that in our market, monthly customer churn is the poorest with customers on Vodofone's cheapest plan, $30 a month, by a large margin. We calculate that we can <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="Assumptions used: 500K customers, 5% monthly churn rate." data-placement="bottom">increase monthly revenue by $50,000</a> by decreasing customer churn in the $30 a month cohort by 7.5%.
 
-We make an untested assumption** that we can achieve the 7.5% reduction in $30 a month plan customers within 6 months with a budget of $200K, at which point we'll have an automated system in place to ensure the reduction stays in place. This means we are able to recoup our invested resources within 10 months of project commencement (6 months to reduce churn, 4 months to recoup the $200K at $50K per month). Based on our assumptions we also estimate the project will generate an additional $100K of revenue for the business within a year of commencement and $600K per annum subsequently.
+We make an <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="We'll discuss how untested assumptions get proven in a later article.">untested assumption</a> that we can achieve the 7.5% reduction in $30 a month plan customers with a budget of $200K within 6 months, at which point we'll have an automated system in place to ensure the reduction stays in place. This means we are able to recoup our invested resources within 10 months of project commencement (6 months to reduce churn, 4 months to recoup the $200K at $50K per month). Based on our assumptions we also estimate the project will generate an additional $100K of revenue for the business within a year of commencement and $600K per annum subsequently.
 
-<span class="footnote">*Assumptions used: 500K customers, 5% monthly churn rate</span>
-
-<span class="footnote">**We'll discuss how untested assumptions get proven in a later article</span>
+<small class="footnote">**Assumptions used: 500K customers, 5% monthly churn rate. ***We'll discuss how untested assumptions get proven in a later article.</small>
 
 ***
 
-# Gaining stakeholder buy in
+## Gaining stakeholder buy in
 
-It would be difficult if not impossible to convince an executive at Vodafone to invest $200K in order to 'reduce customer churn'. Armed with the insight of the company's highest churning customer cohort and some quick estimations and calculated assumptions we now have the ability to argue our case to senior stakeholders.
+Armed with the insight of the company's highest churning customer cohort and some quick estimations and calculated assumptions we now have the beginnings of a business case to argue our case to senior stakeholders. Of course we still have many unknowns and assumptions, but we are in a far better position to understand the research we need to undertake in order to replace assumptions with insights.
 
-Of course we still have many unknowns and assumptions, but we are in a far better position to understand the research we need to undertake in order to replace assumptions with insights. The largest unknown is why are customers on the $30 plan moving on at such a rate? Our next step, prior to consulting someone in the executive function, is to create a plan to identify the best research method to uncover why this cohort of customers is leaving the company. We'll discuss how to structure such a research plan in a future article.
+The largest unknown is why are customers on the $30 plan moving on at such a rate? Our next step, prior to consulting someone in the executive function, is to create a plan to identify the best research method to uncover why this cohort of customers is leaving the company. We'll discuss how to structure such a research plan in a future article.
 
 Armed with a research plan (methodology, expected outcome, budget, timings) we can now discuss our success criteria with a business stakeholder. We explain how we would first like to tackle the issue of customer churn, our assumptions around the initial project and what we need to begin with (the research). The stakeholder is now armed with all the information they need to either back the initial research or challenge our assumptions, which would be great as it leads to us being able to refine our assumptions based on the domain knowledge of the stakeholder.
 
 ***
 
-# Conclusion
+## Conclusion
 
 Success metrics take high-level business goals and transform them into tangible frameworks upon which we can build our digital strategies. In order to develop success metrics we need to:
 

@@ -2353,3 +2353,82 @@ App 3589 stdout:
 App 3571 stdout: 
 [ 2014-06-01 09:02:15.8618 3553/0x109274000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 3571, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.3571
 App 3752 stdout: 
+PassengerHelperAgent(6333,0x108ffe000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(6333,0x108ffe000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(6333,0x108ffe000) malloc: *** set a breakpoint in malloc_error_break to debug
+PassengerHelperAgent(6398,0x108ffe000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(6398,0x108ffe000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(6398,0x108ffe000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 8176 stdout: 
+[ 2014-06-01 09:26:14.0267 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 8176, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.8176
+App 8318 stdout: 
+App 8454 stdout: 
+App 12741 stdout: 
+[ 2014-06-01 09:52:09.8420 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 12741, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.12741
+App 12883 stdout: 
+App 13354 stdout: 
+[ 2014-06-01 09:57:41.3495 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 13354, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.13354
+App 13497 stdout: 
+App 13526 stdout: 
+App 14898 stdout: 
+[ 2014-06-01 10:10:47.5257 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 14898, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.14898
+App 15042 stdout: 
+App 15043 stdout: 
+App 16254 stdout: 
+[ 2014-06-01 10:25:01.3658 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 16254, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.16254
+App 16396 stdout: 
+App 16906 stdout: 
+[ 2014-06-01 10:30:15.8620 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 16906, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.16906
+App 17048 stdout: 
+App 17053 stdout: 
+App 17714 stdout: 
+[ 2014-06-01 10:43:16.4311 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 17714, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.17714
+App 17856 stdout: 
+App 17861 stdout: 
+App 18291 stdout: 
+[ 2014-06-01 10:50:51.5969 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 18291, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.18291
+App 18433 stdout: 
+App 18452 stdout: 
+App 19134 stdout: 
+[ 2014-06-01 10:58:28.3541 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 19134, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.19134
+App 19276 stdout: 
+App 19591 stdout: 
+[ 2014-06-01 11:03:50.0383 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 19591, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.19591
+App 19733 stdout: 
+App 20660 stdout: 
+[ 2014-06-01 11:15:40.4624 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 20660, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.20660
+App 20802 stdout: 
+App 22790 stdout: 
+[ 2014-06-01 14:46:33.5475 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 22790, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.22790
+App 22932 stdout: 
+App 23735 stdout: 
+[ 2014-06-01 14:51:36.8296 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 23735, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.23735
+App 23877 stdout: 
+App 26128 stdout: 
+[ 2014-06-01 15:17:40.1548 3553/0x10909b000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 26128, listening on unix:/tmp/passenger.1.0.3550/generation-0/backends/preloader.26128
+App 26272 stdout: 
+[ 2014-06-01 16:46:35.5941 3559/0x7fff71f0e310 agents/LoggingAgent/Main.cpp:289 ]: Caught signal, exiting...
+[ 2014-06-02 06:55:32.8764 1749/0x7fff78f4a310 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'vlad', 'cleanup_pidfiles' => 'L3Zhci9mb2xkZXJzL3lyLzViXzIybWo5N2pxOGgweHdnajV6Zmt4dzAwMDBnbi9UL3Bhc3Nlbmdlci1zdGFuZGFsb25lLjFwMXh5ZXkvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'staff', 'default_python' => 'python', 'default_ruby' => '/Users/vlad/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'vlad', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/var/folders/yr/5b_22mj97jq8h0xwgj5zfkxw0000gn/T/passenger-standalone.1p1xyey/locations.ini', 'passenger_version' => '4.0.37', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.37', 'web_server_pid' => '1724', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-06-02 06:55:35.0237 1759/0x7fff78f4a310 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1724/generation-0/request
+[ 2014-06-02 06:55:37.5267 1777/0x7fff78f4a310 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1724/generation-0/logging
+[ 2014-06-02 06:55:37.5270 1749/0x7fff78f4a310 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 1812 stderr: PassengerHelperAgent(1813,0x10c7e3000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+App 1812 stderr: PassengerHelperAgent(1813,0x10c7e3000) malloc: *** error: can't allocate region securely
+App 1812 stderr: PassengerHelperAgent(1813,0x10c7e3000) malloc: 
+App 1812 stderr: *** set a breakpoint in malloc_error_break to debug
+App 1812 stdout: 
+[ 2014-06-02 06:56:00.9062 1759/0x10c7e3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 1812, listening on unix:/tmp/passenger.1.0.1724/generation-0/backends/preloader.1812
+App 2162 stdout: 
+PassengerHelperAgent(3649,0x10c556000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+PassengerHelperAgent(3649,0x10c556000) malloc: *** error: can't allocate region securely
+PassengerHelperAgent(3649,0x10c556000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 4737 stderr: PassengerHelperAgent(4738,0x10c7e3000) malloc: *** mach_vm_map(size=8388608) failed (error code=268435459)
+App 4737 stderr: PassengerHelperAgent(4738,0x10c7e3000) malloc: *** error: can't allocate region securely
+App 4737 stderr: PassengerHelperAgent(4738,0x10c7e3000) malloc: *** set a breakpoint in malloc_error_break to debug
+App 4737 stdout: 
+[ 2014-06-02 07:12:40.4646 1759/0x10c7e3000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 4737, listening on unix:/tmp/passenger.1.0.1724/generation-0/backends/preloader.4737
+App 4881 stdout: 
+App 5567 stdout: 
+[ 2014-06-02 07:21:49.3625 1759/0x10c5dc000 Pool2/SmartSpawner.h:301 ]: Preloader for /Developer/Sites/mehakovic started on PID 5567, listening on unix:/tmp/passenger.1.0.1724/generation-0/backends/preloader.5567
+App 5711 stdout: 
+App 5960 stdout: 

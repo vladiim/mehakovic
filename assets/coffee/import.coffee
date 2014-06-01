@@ -1,5 +1,7 @@
 ###
-// 
-// @depend card_link.js
+//
+// @depend underscore.js
+// @depend bootstrap-tooltip.js
+// @depend tooltip.js
 //
 ###

@@ -14,7 +14,7 @@
 				<li>~ {{ page.content | number_of_words | est_time_to_read }} <b>/</b></li>
 				<li temprop="author">By: {{ page.author }} <b>/</b></li>
 			  {% for tag in page.tags %}
-		      <li><a href="/{{ tag | un_commatize }}" class="centre" itemprop="keywords">{{ tag }}</a></li>
+		      <li><a href="/{{ tag | un_commatize }}" class="centre" itemprop="keywords">#{{ tag }}</a></li>
 			  {% endfor %}
 			</ul>
 		</div>
