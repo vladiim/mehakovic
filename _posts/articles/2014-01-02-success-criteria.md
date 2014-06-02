@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using success criteria over goals
+title: Success criteria over goals
 category: articles
 author: Vlad Mehakovic
 tags: articles success-criteria metrics goals
@@ -38,8 +38,6 @@ Success criteria take a high-level goal one step further. They give a high-level
 For instance, imagine we've been briefed by [Vodafone](http://www.vodafone.com.au/), to 'reduce customer churn'. After investigating churn rates by customer cohorts we find that in our market, monthly customer churn is the poorest with customers on Vodofone's cheapest plan, $30 a month, by a large margin. We calculate that we can <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="Assumptions used: 500K customers, 5% monthly churn rate." data-placement="bottom">increase monthly revenue by $50,000</a> by decreasing customer churn in the $30 a month cohort by 7.5%.
 
 We make an <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="We'll discuss how untested assumptions get proven in a later article.">untested assumption</a> that we can achieve the 7.5% reduction in $30 a month plan customers with a budget of $200K within 6 months, at which point we'll have an automated system in place to ensure the reduction stays in place. This means we are able to recoup our invested resources within 10 months of project commencement (6 months to reduce churn, 4 months to recoup the $200K at $50K per month). Based on our assumptions we also estimate the project will generate an additional $100K of revenue for the business within a year of commencement and $600K per annum subsequently.
-
-<small class="footnote">**Assumptions used: 500K customers, 5% monthly churn rate. ***We'll discuss how untested assumptions get proven in a later article.</small>
 
 ***
 

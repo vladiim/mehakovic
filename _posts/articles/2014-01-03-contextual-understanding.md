@@ -1,132 +1,64 @@
 ---
 layout: post
-title: Context
+title: Contextual understanding
 category: articles
+author: Vlad Mehakovic
 tags: articles context
-overview: We need to take into account the wider environment in which our organisation operates in order to create and manage successful digital strategies. The way we systematically map out, understand and derive insights from our organisation's wider environment is through our context. This article details why context matters and discusses the different components of a useful context.
+overview: Digital strategies rely on an understanding of our business' context and environment.
 ---
+
+## TL;DR
+
+Contextual understanding is the backbone of any digital strategy. In order to create contextual understanding we need to produce insights for the components of our business' context. In order to effectively use the insights we produce we need to map and illustrate our insights into a format that can easily be reused and built upon.
 
 ***
 
-## Why context matters
+## What is business context?
 
---- drawing scope vs refinement of information
+Every digital strategy operates within a complicated system. This system is comprised of the resources available to us, our current and potential customer segments, communication channels, our competitors, wider societal trends, exsisting/potential partners, suppliers and technology. Each of these components are complicated, volatile and continually interacting with one other.
 
-Every digital strategy operates within a complicated system. This system is comprised of the resources available to us, our current and potential customer segments, communication channels, our competitors, wider societal trends, partners, suppliers and technology. Each of these components are complicated, volatile and continually interacting with one other. It is this system — its components and their relationships to one another —  that creates our context. Mapping this system out enables us to make informed decisions on the best course of action for us to take.
+It is this system — its components and their relationships to one another —  that creates our context. Mapping out our context enables us to make informed decisions on the best course of action for us to take. Therefore contextual awareness is the backbone of any digital strategy.
 
-An effective context allows us to represent and understand a complicated system easily. We need look no further than the periodic table of elements we studied in high-school to see the benefits of an effective context. The inventor of the periodic table [Dmitri Mendeleev][dmitri-mendeleev] organised the elements based on their atomic mass, which allowed even the casual observer to quickly understand how elements are related to one another. For experienced chemists, the table enables the correct predicition of how undiscovered elements will behave. By distilling elemental science down to a single page, Mendeleev created a context that drastically impacted on the rate of innovation within chemistry. Such is the power of an insightful and simply communicated context.
+***
 
-Compiling and communicating our organisation’s context renders us master of our wider situational circumstance. This increased understanding of our circumstance helps us to identify and take advantage of opportunities that were previously overlooked. But in order to effectively map our organisation’s context we need to produce articulate insights.
+## Why does context matter?
+
+An effective context allows us to represent and understand a complicated system easily. We need look no further than the periodic table of elements we studied in high-school to see the benefits of an effectively structured context. The inventor of the periodic table [Dmitri Mendeleev][dmitri-mendeleev] organised the elements based on their atomic mass, which allowed even the casual observer to quickly understand how elements are related to one another. For experienced chemists, the table enables the correct predicition of how undiscovered elements will behave.
+
+By distilling elemental science down to a single page, Mendeleev created a context that drastically impacted on the rate of innovation within chemistry. Such is the power of an insightful and simply communicated context.
+
+Our business can benefit from a simply communicated context as much as chemistry did from the periodic table. To effectively map our organisation's context we need to:
+
+* [Produce insights](/articles/producing-insights)
+* [Map insights](/articlles/mapping-insights) effectively
 
 ***
 
 ## Producing insights
 
---- nine dot problem: http://en.wikipedia.org/wiki/Thinking_outside_the_box
+Insights allow us to better understand a component within our context. We may produce insights on any component within our context; what our competition is doing, our customer's behaviors, interviews with various stakeholders etc.
 
-Insight is the [understanding of the true nature of something][websters-insight]. By understanding something we can manipulate it. The insight required to solve the famous [nine-dot problem][nine-dot-problem] is the realisation that we can "draw outside-the-box". Using this insight, we can now solve the problem by manipulating the pre-disposition to stay within the invisible confines of the box created by the dots.
-
-Fortunately, digital strategists can use a methodology for producing insights that has been tried and tested for hundreds of years by the world’s greatest minds, the [scientific method][scientific-method]. We can take the same process that enabled humans to derive insights about biology, physical universe and chemistry to derive insights about our customers, communication channels and optimal resource allocation.
-
-The scientific method is a set of techniques that allow us to investigate phenomena and build on knowledge. The [set of techniques][observational-science] we use when creating insights for our digital strategy are:
-
-1. Asking questions
-2. Making observations
-3. Hypothesising an explanation
-4. Predicting consequence
-5. Testing the prediction
-6. Creating a conclusion
-
-Future articles will be dedicated to the nuanced explanation of techniques. For now, we'll lightly touch on each technique.
-
-### 1. Asking questions
-
-In his book that uncovered the behaviors of the world's best innovators, [The Innovator's DNA][innovators-dna], Harvard Business Professor Clayton Christensen lists “questioning” as one of the five discovery skills required of disruptive innovators. In his research of thousands of business leaders, Christensen found that those at the helm of the world’s most innovative companies were “consummate questioners who show a passion for inquiry”. These leaders constantly asked thoughtful questions that led them to provocative insights and fuelled the curiosity and creativity that ultimately led them to ground-breaking ideas and companies.
-
-We too need to constantly ask questions about what’s going on within our organisation and its wider context. These questions form the bedrock of our insights which will ultimately drive our digital strategy.
-
-### 2. Making observations
-
-[IDEO][ideo] are a design and innovation consultancy that help businesses and NGOs re-imagine companies, brands, products and services. At the heart of their design methodology is their [Human Centered Design process][hcd]. This process is made up of several phases and ends with a prototyped solution that solves obvious but initially unseen problems. The first step in IDEO’s process is the “hear phase” where the design team do nothing but observe and collect stories and inspiration from the people they are designing solutions for.
-
-When the IDEO team were enlisted to help a failed project to get clean water to the the people of rural Hyderabad in India, they first focus was observing the township’s day-to-day behaviour. Prior to IDEO's involvement, the Naadi Foundation had created a facility for the townspeople to access clean drinking water but the people continued to use the contaminated water they had been drinking for generations. The Foundation couldn’t work out why the townspeople were forgoing clean, hygienic water for contaminated water that made them sick.
-
-The answer to the issue was simple but would never be apparent without observation; the plastic rectangular container being provided by the foundation to transport their water was heavy and didn't sit on the hip or head where the townspeople were used to carrying water. IDEO discovered this only after spending time with the townspeople, listening to their stories and understanding their cultural norms by observing their behavior.
-
-### 3. Hypothesising an explanation
-
--- data image showing correlation between tv ads and paid search sales from ipad / iphone / website / android
-
-A hypothesis is an educated guess. We hypothesise about our observations in order to correlate an outcome with an action: if x, then y. For example, if the Naadi Foundation supplies the correct water containers to the Hyderabad townspeople, they will access the clean water.
-
-In relation to our digital strategy, we may make an observation that sales from iPads spike when our TV ads are played. After further investigation we might find that most of these sales originated with a paid search. We may therefore make the hypothesis that there is a correlation between the money we invest on TV advertising and sales made via paid search on a tablet device. It stands to reason that if customers see the ad, they will do a search on their iPad and purchase the advertised product from their couch.
-
-A hypothesis is important because it is objective. Either PPC sales from an iPad increase with TV expenditure or they don’t. Hypotheses also encourage new observations. We could find that iPad PPC sales increase only during certain seasons or when we advertise certain products, we might also find that the increased sales only come from iPads and not other tablet devices. This nuance of discovery and understanding can only happen via an initial attempt to explain an observation.
-
-### 4. Predicting consequence
-
-Predictions give us clear boundaries in which to test our hypothesis. Continuing with the example above, we might make a prediction that, 'if we increase our TV advertising spend by $100,000 we will see a $1M lift in product sales generated from iPads acquired through PPC'. Our prediction needs to be clear cut and objective. If we spend an additional $100,000 on TV advertising we either will or won't see an increase in iPad PPC sales of $1M.
-
-Predictions can in themselves be powerful as the journey to proving the prediction leads to many other discoveries. This is often the case in scientific discovery. An example of such a prediction can be seen in the theorisation of the [Higgs boson][higgs] by Peter Higgs in 1964. Higg's theory led to the creation of the world's most powerful particle accelerator, the [CERN Large Hadron Collider][cern] which in turn led to proving Higg’s prediction correct... in March 2013 - nearly 40 years after the initial prediction!
-
-Well formulated and educated predictions help us to produce insights as they give clear boundaries to test our hypothesis. Larger predictions also pave the way to much innovation in search of proof.
-
-### 5. Testing the prediction
-
-When testing a prediction our job is to gather unbiased data that enables us to make an objective conclusion. For example, using the prediction above, we would want to make sure that the TV media purchased with our additional $100,000 is representative of our existing media. If the majority of our existing media is during primetime, it would be erroneous if the additional media purchased was day time inventory.
-
-It’s important to consider any parameters that might skew our data prior to running the test. This is particularly the case if the test we are running is qualitative in nature. Populations being tested need to be stratified in order to be truly representative, just as the questions asked can’t be leading or the results will be skewed.
-
-The benefit of digital is that we are empowered to instrument and measure every aspect of our activity, so testing predications that lead to commercial insights has never been easier.
-
-### 6. Creating a conclusion
-
-With data in hand from our test, we can attempt to make conclusions. We might conclude that our hypothesis and prediction were correct, or we might be led to a new hypothesis, or we may find the data is inconclusive and decide that it’s worth altering the parameters of the test in order to gather more data.
-
-During a famous [group of experiments][hawethorne-effect] in the 1920's and 1930's at the Hawthorne Works factory, the researchers found that worker productivity improved no matter what variable of the working condition was changed. The experimenters changed a number of the working conditions ranging from break times, lighting, food and cleanliness of the work stations. Regardless of how the researchers altered the conditions productivity always went up.
-
-The outcomes of the research were far different from what had been expected, therefore the researchers drew a different conclusion to what they had expected. Two conclusions were made based on the evidence gathered from the research. The first was that people’s behaviour changes under observation. This finding had a massive impact in the field of observational science and influences the field to this day. The finding was named the [Hawthorne Effect][hawethorne-effect] after the factory within which the experiment took place. The second conclusion was that factory workers were human beings, not unfeeling automata, and as such responded positively to attention and feedback from colleagues and managers. The second finding had a profound and lasting influence on management theory and was the beginnings of what is now the human resources division within companies.
-
-Evidence-based conclusions are powerful, they change the way we understand our world and therefore how we behave. By continually growing insightful conclusions drawn from evidence-based tests, we build our existing pool of knowledge and gain a greater understanding of our organisation and the context in which it operates.
+In order to effectively [produce insights](/articles/producing-insights) we are fortunate in that we can leverage one of the biggest drivers of technological innovation, the [scientific method][scientific-method]. By applying the scientific method to any component within our business' context we can systematically understand the component and articulate our understanding as a set of insights.
 
 ***
 
-## Mapping our insights succinctly
+## Mapping insights
 
-<cite>Everything should be made as simple as possible, but not simpler. <span class="reference">Albert Einstein</span></cite>
+Insights are only powerful when they are acted upon. In order to leverage, question, revise and build on our understanding of our organisation’s context, we need to be able to reference our context at all times. We need to map the various insights from our components into an easily understood document like the periodic table.
 
-Insights are only powerful when they are acted upon. In order to leverage, question, revise and build on our understanding of our organisation’s context, we need to be able to reference our context at all times. We need to be able to carry an illustration of our context to any discussion we have about our digital strategy. This illustration needs to be as simple to grasp as the periodic table, while at the same time encompassing the breadth and depth of the collective understanding we have of our organisational context.
+[Mapping our insights](/articles/mapping-insights) into a single illustration forces us to reflect only the most crucial insights for our business. The illustration needs to be as simple to grasp as the periodic table, while at the same time encompassing the breadth and depth of the collective understanding we have of our organisational context.
 
-Too often organisations produce well informed insights that are presented once and never again see the light of day. They become trapped in the middle of an overbearing PowerPoint deck that no one has the time to read through. In order to be masters of our organisation’s context we need extract these insights into a simple and visible format.
-
-The tools that achieve this simplicity and depth are:
-
-* The Customer Journey Map (CJM)
-* The Business Model Canvas.
-
-We will quickly discuss these tools below and follow up with future in-depth articles. Both tools contain two valuable benefits when mapping context, in that they:
-
-* Help us order our insights in a way that gives us optimal perspective. The better our perspective, [the better our ability is to solve the right problem][diversity-theorem]
-* Can be encapsulated on an A4 page. This is important because it allows us to reference and discuss our context with anyone, at any time..
-
-### The Customer Journey Map (CJM)
-
-The core positive outcome of any digital strategy involves influencing the behaviour of the people our organisation is trying to serve. Customer Journey Mapping, or Customer Experience Mapping, allows us to evaluate our business context from the point of view of our customer. The person whom we’re trying to serve is the nucleus of our company and by contextualising our organisation from the point of view of our customer, we are able to better identify problems and solutions that will enable us to change our customer’s behavior.
-
-The CJM can be as simple or complicated as you require and easily allows you to reconfigure how you represent your CJM.
-
-### The Business Model Canvas
-
-The [Business Model Canvas][businessmodelgeneration], first published in Alex Osterwalder's groundbreaking book [Business Model Generation][businessmodelgenerationbook] encapsulates the fundamental aspects of any business model. Its genius is in its simplicity.
+Too often organisations produce well informed insights that are presented once (usually immediately after research has been conducted) and never again see the light of day. They become trapped in the middle of an overbearing PowerPoint deck that no one has the time to read through. In order to be masters of our organisation’s context we need extract these insights into a simple and visible format. In order to map our insights we can leverage <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="We'll identify an explain insight mapping tools in later articles.">any number of tools</a> such as customer journey maps, taxonomies, user journeys, service blueprints etc.
 
 ***
 
-## Context
+## Conclusion
+
+It's impossible to create an effective digital strategy without contextual understanding as:
 
 * Context helps us create digital strategies as it gives us a map of our oganisation's environment
 * A useful context is comprised of insights gathered from evidence-based research and effective illustration
-* When creating insights we need to ask questions, make observations, hypothesise and explain, predict consequence, test our prediction and create a conclusion
-* To effectively illustrate our context we use the Customer Journey Map and Business Model Canvas.
+* To effectively act on our insights we need to map and illustrate them clearly.
 
 ***
 
