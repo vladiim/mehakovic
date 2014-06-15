@@ -1,5 +1,5 @@
 header#hero {
-  $light-background: transparentize(white, .4);
+  $light-background: transparentize(white, .2);
   $border-color: $base-border-color;
   $background: lighten($border-color, 10);
 
@@ -38,7 +38,7 @@ header#hero {
     background: $light-background;
     z-index: 1;
     padding: .2em 1em;
-    margin-top: 40%;
+    margin-top: 42%;
   }
 
   .meta {

@@ -5,6 +5,8 @@ category: articles
 author: Vlad Mehakovic
 tags: articles success-criteria metrics goals
 overview: Success metrics allow us to specify the scope of our strategic process and gain stakeholder buy in.
+image: steps.jpg
+image_alt: Steps
 ---
 
 ## TL;DR

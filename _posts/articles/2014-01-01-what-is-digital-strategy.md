@@ -29,10 +29,10 @@ A digital strategy must:
 
 A strategy is the process where we optimise our decisions on the understanding we have of all our options and their subsequent trade-offs. To do this, we need two things:
 
-* An understanding of our context
-* A set of possible decisions.
+* Develop an understanding of our context
+* Identify a set of possible decisions.
 
-When we make strategies within a digital environment, we have access to more information upon which we can make our decisions. This can be both a blessing and a curse. It's a blessing because we are more readily able to gain insights, but it's a curse as it's easy to get overwhelmed by a sea of information.
+When we make strategies within a digital environment, we have access to a lot of information upon which we can make our decisions. This can be both a blessing and a curse. It's a blessing because we are more readily able to gain insights, but it's a curse as it's easy to be overwhelmed by a sea of information.
 
 ***
 

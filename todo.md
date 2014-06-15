@@ -1,3 +1,5 @@
+http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
+
 * fix s3_website.yml to upload cnames then run `s3_website cfg apply`
 
 * make font size bigger: body @ 1.5em on large screen
@@ -27,14 +29,23 @@ https://github.com/BBC-News/Imager.js/
 * add permissions policy to AIM user group https://console.aws.amazon.com/iam/home?region=us-east-1#groups
 * explore article design like http://contently.com/strategist/2014/05/01/5-responsive-design-trends-that-will-revolutionize-your-business/
 
+* Email: https://github.com/ankane/ahoy_email
+
 ***
 
 # Illustrations
 
+* inspiration: http://boutique.blule.fr/
 * What is strategy
 	- chess
 	- art of war
 	- military plan/battle plan
+
+***
+
+# Design
+
+* http://designm.ag/graphic-design/50-css-only-icon-graphics/
 
 ***
 
@@ -55,6 +66,21 @@ https://github.com/BBC-News/Imager.js/
 		* goals, challenges
 	- customer empathy mapping
 	- customer journey mapping
+* data-driven marketing
+	- Show an execution of each biz problem on practical data science @ 23% of book
+
+Sent from my iPhone
+Vlad Ivanovic
+Digital Strategist
+holler
+
+Office +61 2 9469 5954
+Mobile +61 449 822 469
+
+Suite 5, 30 Boronia Street
+Redfern NSW 2016
+
+http://www.holler.com.au
 
 ***
 
