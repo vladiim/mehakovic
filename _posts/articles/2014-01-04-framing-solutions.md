@@ -4,9 +4,9 @@ title: Framing solutions
 category: articles
 author: Vlad Mehakovic
 tags: articles methods solutions
-overview: 
-image: steps.jpg
-image_alt: Steps
+overview: Solutions are the crux of any digital strategy.
+image: 
+image_alt: 
 ---
 
 ## TL;DR
@@ -19,7 +19,7 @@ Solutions are at the heart of our digital strategy. In order to frame a solution
 
 A solution is a systematic way to accomplish something. Solutions are the heart of our [digital strategy](/articles/what-is-digital-strategy) and are made up of resources and processes. Resources are things of value that are required to deploy your solution, think ingredients in a recipe. Processes are instructions on how you put your resources to work, think instructions in a recipe.
 
-Once we have articulated our [success criteria](/articles/success-criteria) and mapped our [contextual understanding](/articles/contextual-understanding) we need to move on to framing solutions. Within the domain of digital strategy, solutions are an interconnected set of ideas, tools and processes that help us achieve our [success criteria](/articles/success-criteria).
+Once we have articulated our [success criteria](/articles/success-criteria) and mapped our [contextual understanding](/articles/contextual-understanding) we need to move on to framing solutions. Within the domain of digital strategy, solutions are an interconnected set of ideas, tools and processes that help us achieve our success criteria.
 
 ***
 
@@ -27,13 +27,13 @@ Once we have articulated our [success criteria](/articles/success-criteria) and 
 
 In order to create a robust solution we need to:
 
-1. Generate solutions
+1. Generate a volume of solutions
 2. Refine with rationality
-3. Distill.
+3. Distill into a kernel.
 
 ***
 
-## 1. Generate solutions
+## 1. Generate  a volume of solutions
 
 <cite>Talent hits a target that no one else can hit; genius hits a target no one else can see. <span class='reference'>Arthur Schopenhaur</span></cite>
 
@@ -51,9 +51,9 @@ To narrow down our solutions we'll evaluate them with objective criteria such as
 
 ***
 
-## 3. Distill
+## 3. Distill into a kernel
 
-<cite itemprop="citation">Everyone has a plan until they get punched in the mouth.<span class="reference">Mike Tyson</span></cite>
+<cite itemprop="citation">Everyone has a plan until they get punched in the mouth.<span class="reference"> Mike Tyson</span></cite>
 
 When creating a solution we need to be careful that we <a href="#" class="tooltip-item" data-toggle="tooltip" data-original-title="We'll outline the tools and methods to do so in a later article.">compensate for the unknown</a>. Although our solution may look great on paper it may not stand the test of time when we release it into the big bad world. In order to reduce risk we distill our solution into its simplest form - something that can be launched within as short a time frame as possible.
 
@@ -66,8 +66,6 @@ The potential perils of going to market without a distilled solution are exempli
 ## Conclusion
 
 In this article we've gone through the steps to frame the solution for our digital strategy. In future articles we'll go into the tools, methods and processes we use within each of these steps in much greater detail.
-
-***
 
 [diversity-theorem]: http://www.virginia.edu/vpfrr/Making%20the%20Difference-Logic%20of%20Diversity_Page_Perspectives.pdf
 

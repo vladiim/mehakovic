@@ -16,7 +16,7 @@ header#hero {
   .hero-image {
     width: 100%;
     position: absolute;
-    z-index: -1;
+//    z-index: -1;
     margin-top: -100px;
   }
 
@@ -36,9 +36,8 @@ header#hero {
     @include span-columns(12);
     display: block;
     background: $light-background;
-    z-index: 1;
+//    z-index: 1;
     padding: .2em 1em;
-    margin-top: 42%;
   }
 
   .meta {

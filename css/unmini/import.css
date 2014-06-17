@@ -552,7 +552,6 @@ header#hero h1 {
 header#hero .hero-image {
   width: 100%;
   position: absolute;
-  z-index: -1;
   margin-top: -100px; }
 header#hero h1.home {
   margin-top: 0; }
@@ -567,9 +566,7 @@ header#hero .hero-intro {
   width: 100%;
   display: block;
   background: rgba(255, 255, 255, 0.8);
-  z-index: 1;
-  padding: .2em 1em;
-  margin-top: 42%; }
+  padding: .2em 1em; }
   header#hero .hero-intro:last-child {
     margin-right: 0; }
 header#hero .meta {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contextual understanding
+title: Mapping insights
 category: articles
 author: Vlad Mehakovic
 published: false

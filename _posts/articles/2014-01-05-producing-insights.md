@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Contextual understanding
+title: Producing insights
 category: articles
 author: Vlad Mehakovic
 tags: articles context
+published: false
 overview: Digital strategies rely on an understanding of our business' context and environment.
 ---
 
