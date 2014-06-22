@@ -421,7 +421,7 @@ nav {
   margin-right: 2.35765%;
   width: 100%;
   background: #f7f7f7;
-  padding-bottom: 5em; }
+  padding-bottom: 0.5em; }
   #index .left-header-image:last-child {
     margin-right: 0; }
   @media screen and (min-width: 570px) {
@@ -551,8 +551,16 @@ header#hero h1 {
       background: none; } }
 header#hero .hero-image {
   width: 100%;
-  position: absolute;
-  margin-top: -100px; }
+  position: absolute; }
+  @media screen and (min-width: 720px) {
+    header#hero .hero-image {
+      margin-top: -100px; } }
+  @media screen and (min-width: 570px) {
+    header#hero .hero-image {
+      margin-top: -75px; } }
+  @media screen and (min-width: 450px) {
+    header#hero .hero-image {
+      margin-top: -50px; } }
 header#hero h1.home {
   margin-top: 0; }
 header#hero h2 {

@@ -9,15 +9,18 @@ header#hero {
     padding: .2em 1em;
     text-align: center;
 
-    @include media($m-med) { margin-top: -0.5em; }
-    @include media($sm-small) { background: none; }
+    @include media( $m-med ) { margin-top: -0.5em; }
+    @include media( $sm-small ) { background: none; }
   }
 
   .hero-image {
     width: 100%;
     position: absolute;
-//    z-index: -1;
-    margin-top: -100px;
+
+
+    @include media( $m-med ) { margin-top: -100px; }
+    @include media( $m-small ) { margin-top: -75px; }
+    @include media( $sm-small ) { margin-top: -50px; }
   }
 
   h1.home {
@@ -36,7 +39,6 @@ header#hero {
     @include span-columns(12);
     display: block;
     background: $light-background;
-//    z-index: 1;
     padding: .2em 1em;
   }
 

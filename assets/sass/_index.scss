@@ -3,7 +3,7 @@
   .left-header-image {
     @include span-columns(12);
     background: lighten($base-border-color, 10);
-    padding-bottom: 5em;
+    padding-bottom: 0.5em;
 
     @include media( $m-small ) {
       background: url("/images/home.jpg") no-repeat right center;

@@ -5,8 +5,8 @@ category: articles
 author: Vlad Mehakovic
 tags: articles methods solutions
 overview: Solutions are the crux of any digital strategy.
-image: 
-image_alt: 
+image: solutions_puzzle.jpg
+image_alt: Puzzle
 ---
 
 ## TL;DR

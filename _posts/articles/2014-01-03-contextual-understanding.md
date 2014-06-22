@@ -5,6 +5,8 @@ category: articles
 author: Vlad Mehakovic
 tags: articles context
 overview: Digital strategies rely on an understanding of our business' context and environment.
+image: context_map.jpg
+image_alt: Map
 ---
 
 ## TL;DR
@@ -59,8 +61,6 @@ It's impossible to create an effective digital strategy without contextual under
 * Context helps us create digital strategies as it gives us a map of our oganisation's environment
 * A useful context is comprised of insights gathered from evidence-based research and effective illustration
 * To effectively act on our insights we need to map and illustrate them clearly.
-
-***
 
 [rich-relevance]: www.richrelevance.com
 [clarabridge]: http://www.clarabridge.com/
