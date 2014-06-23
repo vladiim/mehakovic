@@ -74,4 +74,12 @@ html {
     margin: 0 0 0 20px;
     list-style-type: square;
   }
+
+  :-ms-input-placeholder, ::-moz-placeholder, :-moz-placeholder, ::-webkit-input-placeholder {
+    font-family: $sans-serif;
+  }
+
+  input:focus {
+    font-family: $sans-serif;
+  }
 }

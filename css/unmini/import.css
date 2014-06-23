@@ -329,6 +329,10 @@ html {
   html .site ul li ul, html .site ol li ol {
     margin: 0 0 0 20px;
     list-style-type: square; }
+  html :-ms-input-placeholder, html ::-moz-placeholder, html :-moz-placeholder, html ::-webkit-input-placeholder {
+    font-family: "PT Sans", sans-serif; }
+  html input:focus {
+    font-family: "PT Sans", sans-serif; }
 
 a {
   color: base-accent-color;
@@ -414,6 +418,84 @@ nav {
       nav ul li a:hover {
         color: white;
         text-decoration: none; }
+  nav .subscribe {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background: #f7f7f7;
+    padding-bottom: 10px;
+    display: none; }
+    nav .subscribe input {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      display: block; }
+    nav .subscribe div.subscribe-submit {
+      margin: 15px 0 0 10px;
+      position: relative; }
+      nav .subscribe div.subscribe-submit a {
+        font-weight: bold; }
+      nav .subscribe div.subscribe-submit a, nav .subscribe div.subscribe-submit p {
+        font-size: 120%;
+        display: inline; }
+      nav .subscribe div.subscribe-submit input[type=email] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        display: inline;
+        width: 50%;
+        border: 0px solid;
+        font-size: 120%;
+        outline: none;
+        box-shadow: none;
+        margin-left: -3px;
+        min-height: 40px; }
+        nav .subscribe div.subscribe-submit input[type=email]:focus {
+          border-color: none;
+          box-shadow: none;
+          outline: none;
+          color: #4d4d4d;
+          font-family: 'PT Sans', sans-serif; }
+      nav .subscribe div.subscribe-submit button[type=submit] {
+        border: 1px solid lightgray;
+        border-radius: 3px;
+        box-shadow: inset 0 1px 0 0 white;
+        color: #333333;
+        display: inline-block;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: #f7f7f7;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #dadada));
+        background-image: -webkit-linear-gradient(#f7f7f7, #dadada);
+        background-image: linear-gradient(#f7f7f7, #dadada);
+        padding: 7px 18px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 white;
+        background-clip: padding-box;
+        position: absolute;
+        top: 0.3em;
+        right: 0.3em;
+        bottom: 0.3em;
+        outline: none;
+        min-height: 30px;
+        padding: 5px 10px;
+        margin: 7.5px -2px 0 0; }
+        nav .subscribe div.subscribe-submit button[type=submit]:hover:not(:disabled) {
+          box-shadow: inset 0 1px 0 0 white;
+          cursor: pointer;
+          background-color: #eaeaea;
+          background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaeaea), color-stop(100%, lightgray));
+          background-image: -webkit-linear-gradient(#eaeaea, lightgray);
+          background-image: linear-gradient(#eaeaea, lightgray); }
+        nav .subscribe div.subscribe-submit button[type=submit]:active:not(:disabled) {
+          border: 1px solid lightgray;
+          box-shadow: inset 0 0 8px 4px #cbcbcb, inset 0 0 8px 4px #cbcbcb, 0 1px 1px 0 #eeeeee; }
+        nav .subscribe div.subscribe-submit button[type=submit]:disabled {
+          opacity: 0.5;
+          cursor: not-allowed; }
 
 #index .left-header-image {
   float: left;
