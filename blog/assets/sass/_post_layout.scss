@@ -1,0 +1,23 @@
+article#post-layout {
+  $left-header-background: transparentize(white, .4);
+  $border-color: $base-border-color;
+  $background: lighten($border-color, 10);
+
+  margin-top: -2px;
+
+  .first-hr {
+  	clear: both;
+  	margin: 260px 0 1.5em 0;
+  	width: 100%;
+  }
+
+  .post {
+    margin-top: 90%;
+    background-color: $background;
+    padding: 1em;
+    box-shadow: 0 2px 4px darken($base-body-color, 10);
+
+    @include media($sm-small) { margin-top: 70%; }
+    @include media($l-small) { margin-top: 60%; }
+  }
+}

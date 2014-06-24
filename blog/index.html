@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /index.html
+title: Mehakovi&cacute;
+---
+
+<section id="home">
+
+	<div id="index">
+
+		<div class="left-header-image">
+			<header class="left-header">
+				<h1>Digital marketing strategy.</h1>
+				<p class="intro-copy">Hi, this blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital strategy.</p>
+				<p class="topics">Topics covered include:</p>
+				<ul>
+					<li>User/customer experience</li>
+					<li>CRM and loyalty</li>
+					<li>Consumer insights</li>
+					<li>Data-driven marketing</li>
+					<li>Brand/channel planning.</li>
+				</ul>
+			</header>
+		</div>
+
+		<div class="right-header">
+			<section class="list">
+		  	{% for post in site.posts %}
+		      {% include list_item.html %}
+			  {% endfor %}
+			</section>
+		</div>
+	</div>
+
+</section>

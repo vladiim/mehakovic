@@ -1,0 +1,33 @@
+article.list-item {
+	padding: 0.5em;
+	border-bottom: 1px dotted $base-border-color;
+
+	.list-header {
+		margin-bottom: -10px;
+	}
+
+	h4 {
+		margin-bottom: 0.25em;
+
+    @include media($m-med) {
+			font-size: 1em;
+			line-height: 1.2em;
+			margin-bottom: 0;
+		}
+	}
+
+	p {
+    @include media($m-med) {
+			font-size: .75em;
+			line-height: 1em;
+			margin-bottom: 0;
+		}
+	}
+
+  .meta {
+    font-size: 0.8em;
+    font-style: italic;
+    color: lighten($base-font-color, 20);
+    @include media($m-med) { font-size: 0.6em; }
+  }
+}

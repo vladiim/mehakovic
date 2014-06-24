@@ -1,0 +1,57 @@
+header#hero {
+  $light-background: transparentize(white, .2);
+  $border-color: $base-border-color;
+  $background: lighten($border-color, 10);
+
+  h1 {
+    background: $light-background;
+    margin-top: 0em;
+    padding: .2em 1em;
+    text-align: center;
+
+    @include media( $m-med ) { margin-top: -0.5em; }
+    @include media( $sm-small ) { background: none; }
+  }
+
+  .hero-image {
+    width: 100%;
+    position: absolute;
+
+
+    @include media( $m-med ) { margin-top: -100px; }
+    @include media( $m-small ) { margin-top: -75px; }
+    @include media( $sm-small ) { margin-top: -50px; }
+  }
+
+  h1.home {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: $base-font-size;
+  }
+
+  .centre, .meta {
+    text-align: center;
+  }
+
+  .hero-intro {
+    @include span-columns(12);
+    display: block;
+    background: $light-background;
+    padding: .2em 1em;
+  }
+
+  .meta {
+    font-size: $base-font-size * .7;
+    ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0 auto;
+    }
+
+    li {
+      display: inline-block;
+    }
+  }
+}

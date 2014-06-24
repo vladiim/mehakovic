@@ -1,0 +1,28 @@
+name:     Mehakovic
+markdown: redcarpet
+pygments: true
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+
+exclude: [todo.md, Gemfile, Gemfile.lock, Guardfile, 
+          config.ru, Procfile, readme.md, sass, unicorn.rb, 
+          vendor, log, assets, tmp, config, s3_website.yml, 
+          Rakefile.rb, .sass-cache, js/unmini, css/unmini]
+
+relative_permalinks: false
+permalink: /:categories/:title
+
+cdn: http://www.mehakovic.com
+url: http://www.mehakovic.com
+
+service_deliverables_copy: 'The deliverables can be in the form a presentation, a document, a log in protected section of my site or any of the above. The deliverables for this portion of work include:'
+
+work_copy: 'The work done included:'
+
+url: www.mehakovic.com
+description: This blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital strategy.
+author: Vlad Mehakovic
+rss_post_limit: 100

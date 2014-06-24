@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article id="post-layout" itemscope itemtype="http://schema.org/Article">
+
+  <section class="breadcrumb">
+    <a href="/">Home</a>
+  	<a href="/{{ page.category }}/">{{ page.category }}</a>
+  	<a href="{{ page.url }}">{{ page.title | un_capatalize }}</a>
+  </section>
+
+  {% include hero.html %}
+
+	<section class="post" itemprop="articleBody">
+	  {{ content }}
+	</section>
+</article>

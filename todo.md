@@ -1,3 +1,5 @@
+JS Forms: http://journal.crushlovely.com/post/89270334848/7-patterns-to-refactor-javascript-applications-form
+
 http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
 
 * fix s3_website.yml to upload cnames then run `s3_website cfg apply`
@@ -10,8 +12,13 @@ http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement
 
 https://github.com/BBC-News/Imager.js/
 
+Better than Jekyl: http://middlemanapp.com/
+
+Move DNS hosting: http://www.solvedns.com/dns-comparison
+
 * set up on aws
 	- fix the group policies to apply to my bucket only: https://console.aws.amazon.com/iam/home?region=us-east-1#groups
+  - middleman https://github.com/fredjean/middleman-s3_sync
 
 * Content
   - revise copy (services, portfolio)
@@ -97,6 +104,8 @@ http://www.holler.com.au
 http://okdork.com/2014/05/07/10-marketing-tactics-to-net-41000-downloads-on-amazon/
 
 Compile a list of marketing interest sites/groups and email
+
+copy & imagery: http://crushlovely.com/project-stories/
 
 ***
 

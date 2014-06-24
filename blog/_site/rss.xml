@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Mehakovic</title>
+    <link>www.mehakovic.com</link>
+    <description>This blog breaks down the techniques, theories, tools and processes that allow modern businesses to gain a competitive edge using digital strategy.</description>
+    <pubDate>Sun, 05 Jan 2014 00:00:00 +1100</pubDate>
+    <item>
+      <title>Feedback</title>
+      <link>www.mehakovic.com/articles/feedback</link>
+      <description>Feedback is an informational link between cause and effect tat enables recalibration. From te lens of digital strategy, feedback is a rocess were we refine te solutions in our digital strategy based on an evolved understanding of te context in wic our strategy oerates.</description>
+      <pubDate>Sun, 05 Jan 2014 00:00:00 +1100</pubDate>
+      <guid>www.mehakovic.com/articles/feedback</guid>
+      <dc:date>2014-01-05T00:00:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Framing solutions</title>
+      <link>www.mehakovic.com/articles/framing-solutions</link>
+      <description>Solutions are at te eart of our digital strategy. In order to frame a solution we need to generate many solutions, refine our solutions rationally and finally, distill our solution in order to comensate for te unknown.</description>
+      <pubDate>Sat, 04 Jan 2014 00:00:00 +1100</pubDate>
+      <guid>www.mehakovic.com/articles/framing-solutions</guid>
+      <dc:date>2014-01-04T00:00:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Contextual understanding</title>
+      <link>www.mehakovic.com/articles/contextual-understanding</link>
+      <description>Contextual understanding is te backbone of any digital strategy. In order to create contextual understanding we need to roduce insigts for te comonents of our business&amp;#39 context. In order to effectively use te insigts we roduce we need to ma and illustrate our insigts into a format tat can easily be reused and built uon.</description>
+      <pubDate>Fri, 03 Jan 2014 00:00:00 +1100</pubDate>
+      <guid>www.mehakovic.com/articles/contextual-understanding</guid>
+      <dc:date>2014-01-03T00:00:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>Success criteria over goals</title>
+      <link>www.mehakovic.com/articles/success-criteria</link>
+      <description>By adding additional insigts and assumtions to a ig-level goal we can create success criteria tat give our digital strategy scoe and buy in from te business. Success criteria also enable us to identify te initial researc required based on our assumtions</description>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +1100</pubDate>
+      <guid>www.mehakovic.com/articles/success-criteria</guid>
+      <dc:date>2014-01-02T00:00:00+11:00</dc:date>
+    </item>
+    <item>
+      <title>What is digital strategy?</title>
+      <link>www.mehakovic.com/articles/what-is-digital-strategy</link>
+      <description>A digital strategy is a lan of action designed around a series of decisions based on contextual understanding.</description>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +1100</pubDate>
+      <guid>www.mehakovic.com/articles/what-is-digital-strategy</guid>
+      <dc:date>2014-01-01T00:00:00+11:00</dc:date>
+    </item>
+    <dc:date>2014-01-05T00:00:00+11:00</dc:date>
+  </channel>
+</rss>

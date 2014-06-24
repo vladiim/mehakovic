@@ -1,0 +1,1 @@
+web: bundle exec passenger start -R config.ru
