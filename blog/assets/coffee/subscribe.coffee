@@ -5,6 +5,7 @@ $(document).ready ->
 
   $nav.bind "click", ( event ) ->
     event.preventDefault()
+    # analytics()
     $subscribe.show()
     $input.focus()
 
@@ -30,4 +31,5 @@ $(document).ready ->
     $input.unbind "keydown"
 
   submitForm = ->
+    # analytics()
     console.log( 'form submitted!' )

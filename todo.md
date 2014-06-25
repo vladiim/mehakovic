@@ -1,3 +1,9 @@
+# build process
+
+http://aws.amazon.com/sdkforruby/
+
+***
+
 JS Forms: http://journal.crushlovely.com/post/89270334848/7-patterns-to-refactor-javascript-applications-form
 
 http://updates.html5rocks.com/2014/06/Automating-Web-Performance-Measurement

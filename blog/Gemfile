@@ -12,9 +12,13 @@ gem "rack-contrib", "~> 1.1.0"
 
 gem "s3_website",   "~> 1.7.0"
 
+# --------- Dev helpers  --------- #
+group :development do
+  gem "rake"
+end
+
 # --------- Assets  --------- #
 group :development do
-	gem "rake"
 	gem "guard"
 	gem "juicer"
   gem "coffee-script",      "~> 2.2.0"
