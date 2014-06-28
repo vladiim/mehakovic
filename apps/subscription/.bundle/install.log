@@ -67,3 +67,524 @@ I, [2014-06-26T07:46:59.778005 #25854]  INFO -- : 0:  s3_website (1.7.6) from /U
 I, [2014-06-26T07:46:59.778283 #25854]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
 I, [2014-06-26T07:46:59.778560 #25854]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
 I, [2014-06-26T07:46:59.787365 #25854]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T15:02:58.822818 #1476]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T15:03:08.293069 #1476]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T15:03:09.511028 #1476]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T15:04:24.627603 #1476]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T15:04:28.135563 #1476]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T15:04:29.478796 #1476]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T15:04:30.785824 #1476]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T15:04:32.100422 #1476]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T15:04:33.562196 #1476]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T15:04:34.890374 #1476]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T15:04:36.253024 #1476]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T15:04:39.861967 #1476]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T15:04:42.886185 #1476]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T15:04:44.292050 #1476]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T15:04:45.999071 #1476]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T15:04:47.584570 #1476]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T15:04:49.685869 #1476]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T15:04:51.572841 #1476]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T15:05:53.769816 #1476]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T15:05:55.293115 #1476]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T15:05:56.685076 #1476]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T15:05:58.070170 #1476]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T15:05:59.413623 #1476]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T15:06:01.080923 #1476]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T15:06:02.380711 #1476]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T15:06:03.913919 #1476]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T15:06:05.069816 #1476]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T15:06:06.460177 #1476]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T15:06:07.829573 #1476]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T15:06:10.774466 #1476]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T15:06:13.996700 #1476]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T15:06:15.356922 #1476]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T15:06:17.147388 #1476]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T15:06:17.147733 #1476]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T15:06:29.460346 #22805]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T15:06:29.460733 #22805]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T15:06:29.461010 #22805]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T15:06:29.461247 #22805]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T15:06:29.461501 #22805]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T15:06:29.461723 #22805]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T15:06:29.461974 #22805]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T15:06:29.462220 #22805]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T15:06:29.462435 #22805]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T15:06:29.462675 #22805]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T15:06:29.462915 #22805]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T15:06:29.463135 #22805]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T15:06:29.463376 #22805]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T15:06:29.463623 #22805]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T15:06:29.463847 #22805]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T15:06:29.464084 #22805]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T15:06:29.464297 #22805]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T15:06:29.464539 #22805]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T15:06:29.464777 #22805]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T15:06:29.465019 #22805]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T15:06:29.465241 #22805]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T15:06:29.465491 #22805]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T15:06:29.465726 #22805]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T15:06:29.465942 #22805]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T15:06:29.466176 #22805]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T15:06:29.466420 #22805]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T15:06:29.466635 #22805]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T15:06:29.466870 #22805]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T15:06:29.467152 #22805]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T15:06:29.467401 #22805]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T15:06:29.467616 #22805]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T15:06:29.467848 #22805]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T15:06:29.468077 #22805]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T15:06:29.468282 #22805]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:19:33.879886 #24611]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:19:33.912974 #24611]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:19:33.913377 #24611]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:19:33.913650 #24611]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:19:33.913894 #24611]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:19:33.914131 #24611]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:19:33.914354 #24611]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:19:33.914584 #24611]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:19:33.914820 #24611]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:19:33.915041 #24611]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:19:33.915260 #24611]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:19:33.915480 #24611]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:19:33.915698 #24611]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:19:33.915916 #24611]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:19:33.916139 #24611]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:19:33.916380 #24611]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:19:33.916620 #24611]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:19:33.916838 #24611]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:19:33.917057 #24611]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:19:33.917281 #24611]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:19:33.917501 #24611]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:19:33.917733 #24611]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:19:33.917967 #24611]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:19:33.918200 #24611]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:19:33.918425 #24611]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:19:33.918645 #24611]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:19:33.918867 #24611]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:19:33.919086 #24611]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:19:33.919301 #24611]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:19:33.919516 #24611]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:19:33.919732 #24611]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:19:37.196930 #24611]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:19:37.197311 #24611]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:19:37.197553 #24611]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:19:37.197783 #24611]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:20:23.004990 #24619]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:20:23.005350 #24619]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:20:23.005621 #24619]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:20:23.005883 #24619]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:20:23.006129 #24619]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:20:23.006369 #24619]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:20:23.006618 #24619]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:20:23.006839 #24619]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:20:23.007075 #24619]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:20:23.007315 #24619]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:20:23.007560 #24619]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:20:23.007792 #24619]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:20:23.008022 #24619]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:20:23.008239 #24619]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:20:23.008470 #24619]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:20:23.008699 #24619]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:20:23.008930 #24619]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:20:23.009158 #24619]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:20:23.009398 #24619]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:20:23.009627 #24619]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:20:23.009855 #24619]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:20:23.010086 #24619]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:20:23.010316 #24619]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:20:23.010547 #24619]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:20:23.010770 #24619]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:20:23.011009 #24619]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:20:23.011248 #24619]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:20:23.011484 #24619]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:20:23.011719 #24619]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:20:23.011950 #24619]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:20:23.012187 #24619]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:20:23.012417 #24619]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:20:23.012656 #24619]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:20:23.012885 #24619]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:20:23.013102 #24619]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:22:23.790355 #24633]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:22:23.824621 #24633]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:22:23.825106 #24633]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:22:23.825448 #24633]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:22:23.825770 #24633]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:22:25.196801 #24633]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:22:25.197246 #24633]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:22:25.197503 #24633]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:22:25.197739 #24633]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:22:25.197974 #24633]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:22:25.198210 #24633]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:22:25.198442 #24633]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:22:25.198672 #24633]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:22:25.198894 #24633]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:22:25.199119 #24633]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:22:25.199344 #24633]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:22:25.199568 #24633]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:22:25.199790 #24633]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:22:25.200014 #24633]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:22:25.200236 #24633]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+E, [2014-06-28T18:22:30.738607 #24633] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.1 for inspection.
+Results logged to /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/extensions/x86_64-darwin-12/2.0.0-static/pg-0.17.1/gem_make.out
+
+/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:38:in `block in build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-06-28T18:24:00.642444 #24652]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:24:00.642872 #24652]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:24:00.643106 #24652]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:24:00.643333 #24652]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:24:00.643556 #24652]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:24:00.643777 #24652]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:24:00.643997 #24652]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:24:00.644227 #24652]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:24:00.644450 #24652]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:24:00.644670 #24652]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:24:00.644891 #24652]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:24:00.645112 #24652]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:24:00.645331 #24652]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:24:00.645794 #24652]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:24:00.646016 #24652]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:24:00.646232 #24652]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:24:00.646451 #24652]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:24:00.646669 #24652]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:24:00.646885 #24652]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:24:00.647102 #24652]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+E, [2014-06-28T18:24:00.898150 #24652] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.1 for inspection.
+Results logged to /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/extensions/x86_64-darwin-12/2.0.0-static/pg-0.17.1/gem_make.out
+
+/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:38:in `block in build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-06-28T18:29:49.997821 #24715]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:29:50.009843 #24715]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:29:50.010152 #24715]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:29:50.010418 #24715]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:29:50.010660 #24715]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:29:50.010885 #24715]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:29:50.033557 #24715]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:29:50.033859 #24715]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:29:50.034101 #24715]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:29:50.034321 #24715]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:29:50.034538 #24715]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:29:50.034755 #24715]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:29:50.034969 #24715]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:29:50.035186 #24715]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:29:50.035400 #24715]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:29:50.035614 #24715]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:29:50.035826 #24715]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:29:50.036040 #24715]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:29:50.036250 #24715]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:29:50.036464 #24715]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+E, [2014-06-28T18:29:50.564802 #24715] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for pg_config... no
+No pg_config... trying anyway. If building fails, please try again with
+ --with-pg-config=/path/to/pg_config
+checking for libpq-fe.h... no
+Can't find the 'libpq-fe.h header
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+	--with-pg
+	--without-pg
+	--with-pg-config
+	--without-pg-config
+	--with-pg_config
+	--without-pg_config
+	--with-pg-dir
+	--without-pg-dir
+	--with-pg-include
+	--without-pg-include=${pg-dir}/include
+	--with-pg-lib
+	--without-pg-lib=${pg-dir}/
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/gems/pg-0.17.1 for inspection.
+Results logged to /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/extensions/x86_64-darwin-12/2.0.0-static/pg-0.17.1/gem_make.out
+
+/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:38:in `block in build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-06-28T18:35:07.977174 #25725]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:35:07.987108 #25725]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:35:07.987474 #25725]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:35:07.987803 #25725]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:35:07.988128 #25725]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:35:07.988444 #25725]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:35:07.988770 #25725]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:35:07.989079 #25725]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:35:07.989385 #25725]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:35:07.989691 #25725]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:35:07.990005 #25725]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:35:07.990310 #25725]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:35:07.990633 #25725]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:35:07.990937 #25725]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:35:07.991243 #25725]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:35:07.991550 #25725]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:35:07.991849 #25725]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:35:07.992146 #25725]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:35:07.992441 #25725]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:35:07.992740 #25725]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:35:07.993034 #25725]  INFO -- : 0:  pg (0.17.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.1.gemspec
+I, [2014-06-28T18:35:07.993330 #25725]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:35:07.993629 #25725]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:35:07.993945 #25725]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:35:07.994240 #25725]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:35:07.994536 #25725]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:35:07.994833 #25725]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:35:07.995139 #25725]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:35:07.995381 #25725]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:35:07.995628 #25725]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:35:07.995872 #25725]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:35:07.996116 #25725]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:35:07.996360 #25725]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:35:07.996608 #25725]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:35:07.996852 #25725]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:35:07.997098 #25725]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:35:09.956804 #25725]  INFO -- : 0:  sinatra-sequel (0.9.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-sequel-0.9.0.gemspec
+I, [2014-06-28T18:35:09.957249 #25725]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:35:24.191448 #25733]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:35:24.191841 #25733]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:35:24.192080 #25733]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:35:24.192311 #25733]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:35:24.192537 #25733]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:35:24.192769 #25733]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:35:24.192990 #25733]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:35:24.193212 #25733]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:35:24.193434 #25733]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:35:24.193657 #25733]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:35:24.193895 #25733]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:35:24.194115 #25733]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:35:24.194337 #25733]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:35:24.194552 #25733]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:35:24.194770 #25733]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:35:24.194993 #25733]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:35:24.195257 #25733]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:35:24.195476 #25733]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:35:24.195703 #25733]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:35:24.195915 #25733]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:35:24.196125 #25733]  INFO -- : 0:  pg (0.17.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.1.gemspec
+I, [2014-06-28T18:35:24.196390 #25733]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:35:24.196609 #25733]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:35:24.196825 #25733]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:35:24.197046 #25733]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:35:24.197256 #25733]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:35:24.197469 #25733]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:35:24.197679 #25733]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:35:24.197888 #25733]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:35:24.198100 #25733]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:35:24.198311 #25733]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:35:24.198549 #25733]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:35:24.198758 #25733]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:35:24.198973 #25733]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:35:24.199215 #25733]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:35:24.199425 #25733]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:35:24.199631 #25733]  INFO -- : 0:  sinatra-sequel (0.9.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-sequel-0.9.0.gemspec
+I, [2014-06-28T18:35:24.199835 #25733]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:35:44.399351 #25744]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:35:44.399715 #25744]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:35:44.399971 #25744]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:35:44.400224 #25744]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:35:44.400469 #25744]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:35:44.400697 #25744]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:35:44.400910 #25744]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:35:44.401135 #25744]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:35:44.401320 #25744]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:35:44.401547 #25744]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:35:44.401773 #25744]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:35:44.401981 #25744]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:35:44.402205 #25744]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:35:44.402428 #25744]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:35:44.402656 #25744]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:35:44.402876 #25744]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:35:44.403097 #25744]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:35:44.403307 #25744]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:35:44.403527 #25744]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:35:44.403748 #25744]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:35:44.403968 #25744]  INFO -- : 0:  pg (0.17.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.1.gemspec
+I, [2014-06-28T18:35:44.404240 #25744]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:35:44.404525 #25744]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:35:44.404733 #25744]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:35:44.404953 #25744]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:35:44.405173 #25744]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:35:44.405395 #25744]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:35:44.405616 #25744]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:35:44.405823 #25744]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:35:44.406049 #25744]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:35:44.406270 #25744]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:35:44.406534 #25744]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:35:44.406778 #25744]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:35:44.407009 #25744]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:35:44.407223 #25744]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:35:44.407452 #25744]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:35:44.407685 #25744]  INFO -- : 0:  sinatra-sequel (0.9.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-sequel-0.9.0.gemspec
+I, [2014-06-28T18:35:44.407917 #25744]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:36:13.879206 #25753]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:36:13.879595 #25753]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:36:13.879857 #25753]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:36:13.880110 #25753]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:36:13.880363 #25753]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:36:13.880592 #25753]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:36:13.880824 #25753]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:36:13.881054 #25753]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:36:13.881304 #25753]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:36:13.881541 #25753]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:36:13.881773 #25753]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:36:13.881989 #25753]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:36:13.882223 #25753]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:36:13.882455 #25753]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:36:13.882690 #25753]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:36:13.882934 #25753]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:36:13.883144 #25753]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:36:13.883374 #25753]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:36:13.883602 #25753]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:36:13.883831 #25753]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:36:13.884059 #25753]  INFO -- : 0:  pg (0.17.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.1.gemspec
+I, [2014-06-28T18:36:13.884293 #25753]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:36:13.884507 #25753]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:36:13.884733 #25753]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:36:13.884960 #25753]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:36:13.885188 #25753]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:36:13.885417 #25753]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:36:13.885646 #25753]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:36:13.885859 #25753]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:36:13.886090 #25753]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:36:13.886318 #25753]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:36:13.886541 #25753]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:36:13.886780 #25753]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:36:13.886994 #25753]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:36:13.887220 #25753]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:36:13.887448 #25753]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:36:13.887678 #25753]  INFO -- : 0:  sinatra-sequel (0.9.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-sequel-0.9.0.gemspec
+I, [2014-06-28T18:36:13.887899 #25753]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-06-28T18:46:31.443235 #25811]  INFO -- : 0:  rake (10.3.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.3.2.gemspec
+I, [2014-06-28T18:46:31.456672 #25811]  INFO -- : 0:  json (1.8.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.8.1.gemspec
+I, [2014-06-28T18:46:31.457447 #25811]  INFO -- : 0:  mini_portile (0.6.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mini_portile-0.6.0.gemspec
+I, [2014-06-28T18:46:31.457821 #25811]  INFO -- : 0:  nokogiri (1.6.2.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/nokogiri-1.6.2.1.gemspec
+I, [2014-06-28T18:46:31.458156 #25811]  INFO -- : 0:  aws-sdk (1.44.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/aws-sdk-1.44.0.gemspec
+I, [2014-06-28T18:46:31.458541 #25811]  INFO -- : 0:  bacon (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/bacon-1.2.0.gemspec
+I, [2014-06-28T18:46:31.458880 #25811]  INFO -- : 0:  colored (1.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/colored-1.2.gemspec
+I, [2014-06-28T18:46:31.459198 #25811]  INFO -- : 0:  columnize (0.8.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/columnize-0.8.9.gemspec
+I, [2014-06-28T18:46:31.459509 #25811]  INFO -- : 0:  deep_merge (1.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/deep_merge-1.0.0.gemspec
+I, [2014-06-28T18:46:31.459830 #25811]  INFO -- : 0:  configure-s3-website (1.5.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/configure-s3-website-1.5.5.gemspec
+I, [2014-06-28T18:46:31.460122 #25811]  INFO -- : 0:  daemon_controller (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/daemon_controller-1.2.0.gemspec
+I, [2014-06-28T18:46:31.460414 #25811]  INFO -- : 0:  debugger-linecache (1.2.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-linecache-1.2.0.gemspec
+I, [2014-06-28T18:46:31.460706 #25811]  INFO -- : 0:  debugger-ruby_core_source (1.3.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-ruby_core_source-1.3.5.gemspec
+I, [2014-06-28T18:46:31.460993 #25811]  INFO -- : 0:  debugger (1.6.8) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/debugger-1.6.8.gemspec
+I, [2014-06-28T18:46:31.461280 #25811]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-06-28T18:46:31.461569 #25811]  INFO -- : 0:  erubis (2.7.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-06-28T18:46:31.461858 #25811]  INFO -- : 0:  filey-diff (2.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/filey-diff-2.0.0.gemspec
+I, [2014-06-28T18:46:31.462146 #25811]  INFO -- : 0:  mime-types (1.25.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.25.1.gemspec
+I, [2014-06-28T18:46:31.462430 #25811]  INFO -- : 0:  rack (1.5.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.5.2.gemspec
+I, [2014-06-28T18:46:31.462745 #25811]  INFO -- : 0:  passenger (4.0.45) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/passenger-4.0.45.gemspec
+I, [2014-06-28T18:46:31.463028 #25811]  INFO -- : 0:  pg (0.17.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/pg-0.17.1.gemspec
+I, [2014-06-28T18:46:31.463314 #25811]  INFO -- : 0:  rack-contrib (1.1.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-contrib-1.1.0.gemspec
+I, [2014-06-28T18:46:31.463602 #25811]  INFO -- : 0:  rack-protection (1.5.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-protection-1.5.3.gemspec
+I, [2014-06-28T18:46:31.463886 #25811]  INFO -- : 0:  rack-test (0.6.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-06-28T18:46:31.464171 #25811]  INFO -- : 0:  rspec-support (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-support-3.0.2.gemspec
+I, [2014-06-28T18:46:31.464453 #25811]  INFO -- : 0:  rspec-core (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-core-3.0.2.gemspec
+I, [2014-06-28T18:46:31.464739 #25811]  INFO -- : 0:  rspec-expectations (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-expectations-3.0.2.gemspec
+I, [2014-06-28T18:46:31.465024 #25811]  INFO -- : 0:  rspec-mocks (3.0.2) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-mocks-3.0.2.gemspec
+I, [2014-06-28T18:46:31.465306 #25811]  INFO -- : 0:  rspec (3.0.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/rspec-3.0.0.gemspec
+I, [2014-06-28T18:46:31.465600 #25811]  INFO -- : 0:  simple-cloudfront-invalidator (1.0.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/simple-cloudfront-invalidator-1.0.1.gemspec
+I, [2014-06-28T18:46:31.465882 #25811]  INFO -- : 0:  thor (0.18.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.18.1.gemspec
+I, [2014-06-28T18:46:31.466171 #25811]  INFO -- : 0:  zopfli (0.0.3) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/zopfli-0.0.3.gemspec
+I, [2014-06-28T18:46:31.466406 #25811]  INFO -- : 0:  s3_website (1.7.6) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/s3_website-1.7.6.gemspec
+I, [2014-06-28T18:46:31.466639 #25811]  INFO -- : 0:  sequel (4.11.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sequel-4.11.0.gemspec
+I, [2014-06-28T18:46:31.466871 #25811]  INFO -- : 0:  tilt (1.4.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.4.1.gemspec
+I, [2014-06-28T18:46:31.467106 #25811]  INFO -- : 0:  sinatra (1.4.5) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-1.4.5.gemspec
+I, [2014-06-28T18:46:31.467341 #25811]  INFO -- : 0:  sinatra-sequel (0.9.0) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sinatra-sequel-0.9.0.gemspec
+I, [2014-06-28T18:46:37.204500 #25811]  INFO -- : 0:  sqlite3 (1.3.9) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353/specifications/sqlite3-1.3.9.gemspec
+I, [2014-06-28T18:46:37.205076 #25811]  INFO -- : 0:  bundler (1.5.1) from /Users/vlad.ivanovic/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec

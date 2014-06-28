@@ -1,29 +1,47 @@
 require 'rspec'
 require_relative '../app/email'
 
-# logs the email sent
-# validates the email
-# if valid saves the email and responds with json
-# if not valid responds with error through json
-
-module Email
-	module Logger
-		def self.log(email); end
-	end
-end
-
 describe Email do
-  let(:valid) { "valid@email.com" }
-	let(:email) { Email.new(valid) }
+  let(:valid)   { "valid@email.com" }
+  let(:invalid) { "invalid@email" }
+	let(:email)   { Email.new(valid) }
 
   describe "#initialize" do
   	it "stores the email locally" do
   		expect(email.value).to eq valid
   	end
 
-  	it "logs the email" do
-  		message = "Email posted::: #{ valid }"
-  		expect(Email::Logger).to receive(:log).with(message)
-  	end
+    context "valid email" do
+    	it "is valid" do
+    		expect(email.valid?).to eq true
+    	end
+    end
+
+    context "invalid email" do
+      it "is invalid" do
+        emails = %w(**@jj.com blah@--. yolkjlkj.com kjkj@lkj)
+        emails.each do |e|
+          email = Email.new(e)
+          expect(email.valid?).to eq false
+        end
+      end
+    end
+  end
+
+  describe "#save" do
+    let(:store) { double("Store", save: "SAVED") }
+
+    context "valid email" do
+      it "passes the email to Store" do
+        expect(email.save(store)).to eql "SAVED"
+      end
+    end
+
+    context "invalid email" do
+      it "passes the email to Store" do
+        email = Email.new(invalid)
+        expect(email.save(store)).to eql "Invalid email"
+      end
+    end
   end
 end

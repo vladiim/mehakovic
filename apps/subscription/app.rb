@@ -4,22 +4,29 @@
 # if valid saves the email and responds with json
 # if not valid responds with error through json
 
-require 'sinatra/base'
+require "sinatra"
+require "sinatra/base"
+require "json"
+require "sinatra/sequel"
 
+require_relative "app/database"
+require_relative "app/email"
+require_relative "app/store"
 
-class SubscriptionApp < Sinatra::Application
+class SubscriptionApp < Sinatra::Base
   configure :production, :development do
     enable :logging
   end
 
   get '/' do
-  	Getter.new.working
   end
 
 	post '/' do
 		# POST /?email=foo"
 	  email = params[:email]
-		# logger.info "Email posted: #{ email }", Time.now
+		logger.info "Email posted: #{ email }; Time: #{ Time.now }"
+    content_type :json
+    { message: Email.new(email).save }.to_json
 	end
 end
 
