@@ -4,15 +4,15 @@
     %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
     %meta{charset: "utf-8"}
-    %title
-      Vlad Mehakovic, Digital Strategist
+    %meta{content: "Q5mQnTrgj9DCV4Z-71V8vdaTFXxBPQfCv7A23fbFHno", name: "google-site-verification"}
+
+    %title Vlad Mehakovic, Digital Strategist
     %link{href: "http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100", rel: "stylesheet", type: "text/css"}
     %link{href: "css/style.css", rel: "stylesheet"}
     %link{href: "css/font-awesome.min.css", rel: "stylesheet"}
 
   %body
     %h1 Vlad Mehakovic, Digital Strategist
-    -# %h1 blah blah blah
 
     .container
       - skills.each do |skill|
@@ -24,12 +24,27 @@
               %h3= skill.fetch('title')
               %p= skill.fetch('desc')
 
--# Vladimir Mehakovic, Digital Marketing Strategist
--#
--# digital transformation
--#
--# strategy
--# management
--# experience design
--# research - qual/quant
--# marketing*/
+    %h3 Past clients
+    .logos
+      .container
+        - logos[0..1].each do |logo|
+          %div{ class: "col-sm-6 logo #{logo.fetch('src')}" }
+            %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
+      .container
+        - logos[4..6].each do |logo|
+          .col-sm-3.logo
+            %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
+      .container
+        - logos[2..3].each do |logo|
+          %div{ class: "col-sm-6 logo #{logo.fetch('src')}" }
+            %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
+
+
+  %script
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-85918906-1', 'auto');
+    ga('send', 'pageview');

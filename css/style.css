@@ -28,7 +28,13 @@ a:hover {
   flex-wrap: wrap;
 }
 .col-sm-3 {
-  width: 33%;
+  width: 30%;
+}
+.col-sm-4 {
+  width: 22%;
+}
+.col-sm-6 {
+  width: 47%;
 }
 .box {
   padding: 1em;
@@ -48,8 +54,7 @@ a:hover {
   left: 0;
   height: 100%;
   float: left;
-  /*color: #eeeeee;*/
-  color: rgba(0, 0, 0, 0.04);
+  color: rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -59,10 +64,38 @@ a:hover {
   box-sizing: border-box;
 }
 .box .text {
-  /*margin-top: -50px;*/
   z-index: 1;
 }
-/*.box p,
-.box h3 {
-  margin: 0;
-}*/
+.logos img {
+  opacity: 0.2;
+}
+.logos .col-sm-3,
+.logos .col-sm-4 {
+  text-align: center;
+}
+.logos .col-sm-4 img {
+  max-width: 100%;
+}
+.logos .col-sm-6 img {
+  max-width: 60%;
+}
+.logos .col-sm-3 img {
+  max-width: 50%;
+}
+.logos .logo {
+  padding: 1em 1em 1em 0;
+}
+.logo.novartis,
+.logo.pizza_hut {
+  text-align: right;
+}
+.logos img.novartis {
+  margin-top: -15px;
+}
+.logos img.electrolux {
+  margin-top: -5px;
+}
+.logos img.roche {
+  margin-top: -5px;
+  max-width: 40%;
+}
