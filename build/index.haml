@@ -1,0 +1,35 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta{charset: "utf-8"}
+    %title
+      Vlad Mehakovic, Digital Strategist
+    %link{href: "http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100", rel: "stylesheet", type: "text/css"}
+    %link{href: "css/style.css", rel: "stylesheet"}
+    %link{href: "css/font-awesome.min.css", rel: "stylesheet"}
+
+  %body
+    %h1 Vlad Mehakovic, Digital Strategist
+    -# %h1 blah blah blah
+
+    .container
+      - skills.each do |skill|
+        .col-sm-3.item
+          .box
+            .icon
+              %i{class: "fa #{skill.fetch('icon')}"}
+            .text
+              %h3= skill.fetch('title')
+              %p= skill.fetch('desc')
+
+-# Vladimir Mehakovic, Digital Marketing Strategist
+-#
+-# digital transformation
+-#
+-# strategy
+-# management
+-# experience design
+-# research - qual/quant
+-# marketing*/

@@ -1,0 +1,68 @@
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #ecf0f1;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+  color: #2c3e50;
+  text-transform: uppercase;
+}
+p {
+  font-weight: lighter;
+}
+body {
+  margin: 0 auto;
+  max-width: 70em;
+  line-height: 1.5;
+  color: #555;
+}
+a {
+  color: #2980b9;
+}
+a:hover {
+  color: #3498db;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col-sm-3 {
+  width: 33%;
+}
+.box {
+  padding: 1em;
+  margin: 0.5em 0.5em 0.5em 0;
+  border: solid 1px #e6e6e6;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  height: 120px;
+  text-align: center;
+  position: relative;
+}
+.box .icon {
+  position: absolute;
+  font-size: 120px;
+  width: 100%;
+  text-align: center;
+  margin-top: -30px;
+  left: 0;
+  height: 100%;
+  float: left;
+  /*color: #eeeeee;*/
+  color: rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.box .text {
+  /*margin-top: -50px;*/
+  z-index: 1;
+}
+/*.box p,
+.box h3 {
+  margin: 0;
+}*/
