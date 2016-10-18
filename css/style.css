@@ -99,3 +99,29 @@ a:hover {
   margin-top: -5px;
   max-width: 40%;
 }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    body {
+      padding: 0.5em;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+    h3 {
+      font-size: 1em;
+    }
+    .logos .col-sm-3 {
+      width: 28%;
+    }
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-6 {
+      width: 45%;
+    }
+    .box {
+      height: 220px;
+    }
+}

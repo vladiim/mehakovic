@@ -14,9 +14,9 @@
   %body
     %h1 Vlad Mehakovic, Digital Strategist
 
-    .container
+    .container.skills
       - skills.each do |skill|
-        .col-sm-3.item
+        .col-sm-3
           .box
             .icon
               %i{class: "fa #{skill.fetch('icon')}"}
