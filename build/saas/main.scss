@@ -1,0 +1,25 @@
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: $background-color;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+  color: $secondary-color;
+  text-transform: uppercase;
+}
+p {
+  font-weight: lighter;
+}
+body {
+  padding-left: 1em;
+  margin: 0 auto;
+  max-width: 70em;
+  line-height: 1.5;
+  color: $font-color;
+}
+a {
+  color: $primary-color;
+}
+a:hover {
+  color: $links-color;
+}

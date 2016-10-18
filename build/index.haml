@@ -4,19 +4,17 @@
     %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
     %meta{charset: "utf-8"}
-    %meta{content: "Q5mQnTrgj9DCV4Z-71V8vdaTFXxBPQfCv7A23fbFHno", name: "google-site-verification"}
 
     %title Vlad Mehakovic, Digital Strategist
     %link{href: "http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100", rel: "stylesheet", type: "text/css"}
     %link{href: "css/style.css", rel: "stylesheet"}
-    %link{href: "css/font-awesome.min.css", rel: "stylesheet"}
 
-  %body
+  %body.container
     %h1 Vlad Mehakovic, Digital Strategist
 
-    .container.skills
+    .row.skills
       - skills.each do |skill|
-        .col-sm-3
+        %div{class: 'col-xs-6 col-sm-4 col-lg-2'}
           .box
             .icon
               %i{class: "fa #{skill.fetch('icon')}"}
@@ -26,17 +24,17 @@
 
     %h3 Past clients
     .logos
-      .container
+      .row
         - logos[0..1].each do |logo|
-          %div{ class: "col-sm-6 logo #{logo.fetch('src')}" }
+          %div{ class: "col-xs-6 logo #{logo.fetch('src')}" }
             %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
-      .container
+      .row
         - logos[4..6].each do |logo|
-          .col-sm-3.logo
+          .col-xs-4.logo
             %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
-      .container
+      .row
         - logos[2..3].each do |logo|
-          %div{ class: "col-sm-6 logo #{logo.fetch('src')}" }
+          %div{ class: "col-xs-6 logo #{logo.fetch('src')}" }
             %img{ class: "#{logo.fetch('src').downcase}", src: "img/#{logo.fetch('src')}.png", alt: logo.fetch('alt') }
 
 

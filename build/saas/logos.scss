@@ -1,0 +1,36 @@
+.logos img {
+  opacity: 0.2;
+}
+.logos .logo {
+  text-align: center;
+}
+.logos .col-xs-4 img {
+  max-width: 50%;
+}
+.logos .col-xs-6 img {
+  max-width: 60%;
+}
+.logos .col-xs-3 img {
+  max-width: 50%;
+}
+.logos .logo {
+  padding: 1em 1em 1em 0;
+}
+.logo.blackmores,
+.logo.electrolux {
+  text-align: left;
+}
+.logo.novartis,
+.logo.pizza_hut {
+  text-align: right;
+}
+.logos img.novartis {
+  margin-top: -15px;
+}
+.logos img.electrolux {
+  margin-top: -5px;
+}
+.logos img.roche {
+  margin-top: -5px;
+  max-width: 40%;
+}

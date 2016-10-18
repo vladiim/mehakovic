@@ -2,11 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     dotenv (2.1.1)
+    haml (4.0.7)
+      tilt
     rake (11.3.0)
+    sass (3.4.22)
+    tilt (2.0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   dotenv
+  haml
   rake
+  sass
