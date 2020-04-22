@@ -4,7 +4,7 @@ GEM
     dotenv (2.1.1)
     haml (4.0.7)
       tilt
-    rake (11.3.0)
+    rake (12.3.3)
     sass (3.4.22)
     tilt (2.0.5)
 
