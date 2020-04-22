@@ -2,11 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     dotenv (2.1.1)
-    haml (4.0.7)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     rake (11.3.0)
     sass (3.4.22)
-    tilt (2.0.5)
+    temple (0.8.2)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
